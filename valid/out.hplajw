@@ -1,0 +1,1130 @@
+
+Output file name: out.hplajw
+Input trace format: hpl
+I/O trace used: stdin
+Synthgen to be used?: 0
+
+Byte Order (Endian): Little (using detected value: Little)
+Init Seed: 42
+Real Seed: 42
+Statistic warm-up period: 0.000000 seconds
+Stat (dist) definition file: statdefs
+Output file for I/O requests simulated: 0
+
+I/O Subsystem Input Parameters
+------------------------------
+
+PRINTED I/O SUBSYSTEM STATISTICS
+
+Print driver size stats? 1
+Print driver locality stats? 0
+Print driver blocking stats? 0
+Print driver interference stats? 0
+Print driver queue stats? 1
+Print driver crit stats? 1
+Print driver idle stats? 1
+Print driver intarr stats? 1
+Print driver streak stats? 1
+Print driver stamp stats? 1
+Print driver per-device stats? 1
+Print bus idle stats? 1
+Print bus arbwait stats? 1
+Print controller cache stats? 1
+Print controller size stats? 1
+Print controller locality stats? 1
+Print controller blocking stats? 1
+Print controller interference stats? 1
+Print controller queue stats? 1
+Print controller crit stats? 1
+Print controller idle stats? 1
+Print controller intarr stats? 1
+Print controller streak stats? 1
+Print controller stamp stats? 1
+Print controller per-device stats? 1
+Print disk queue stats? 0
+Print disk crit stats? 0
+Print disk idle stats? 0
+Print disk intarr stats? 0
+Print disk size stats? 0
+Print disk seek stats? 1
+Print disk latency stats? 1
+Print disk xfer stats? 1
+Print disk acctime stats? 1
+Print disk interfere stats? 0
+Print disk buffer stats? 1
+
+GENERAL I/O SUBSYSTEM PARAMETERS
+
+I/O Trace Time Scale: 1.000000
+Number of I/O Mappings: 2
+Mapping: 0 0 256 1 0
+Mapping: 1 1 256 1 0
+
+COMPONENT SPECIFICATIONS
+
+Number of device drivers: 1
+
+Device Driver Spec #1
+# drivers with Spec: 1
+Device driver type: 1
+Constant access time: 0.000000
+Scheduling policy: 4
+Cylinder mapping strategy: 1
+Write initiation delay: 0.830000
+Read initiation delay: 0.560000
+Sequential stream scheme: 0
+Maximum concat size: 0
+Overlapping request scheme: 0
+Sequential stream diff maximum: 0
+Scheduling timeout scheme: 0
+Timeout time/weight: 6
+Timeout scheduling: 4
+Scheduling priority scheme: 0
+Priority scheduling: 4
+Use queueing in subsystem: 1
+
+Number of buses: 3
+
+Bus Spec #1
+# buses with Spec: 1
+Bus Type: 2
+Arbitration type: 1
+Arbitration time: 0.000000
+Read block transfer time: 0.000000
+Write block transfer time: 0.000000
+Print stats for bus: 0
+
+Bus Spec #2
+# buses with Spec: 2
+Bus Type: 1
+Arbitration type: 1
+Arbitration time: 0.000000
+Read block transfer time: 0.050000
+Write block transfer time: 0.050000
+Print stats for bus: 1
+
+Number of controllers: 2
+
+Controller Spec #1
+# controllers with Spec: 2
+Controller Type: 1
+Scale for delays: 0.000000
+Bulk sector transfer time: 0.000000
+Maximum queue length: 0
+Print stats for controller: 1
+
+Number of disks: 2
+
+Disk Spec #1
+# disks with Spec: 2
+Access time (in msecs): -2.000000
+Seek time (in msecs): -4.000000
+Single cylinder seek time: 0.200000
+Average seek time: 1.10
+Full strobe seek time: 2.300000
+Add. write settling delay: 0.650000
+HPL seek equation values: 300.000000 3.810000 0.330000 7.750000 0.005900 -1.000000
+First 10 seek times:    2.890000 3.680000 3.810000 3.980000 4.270000 4.650000 4.520000 4.650000 4.820000 4.990000
+Head switch time: 0.890000
+Rotation speed (in rpms): 5400.000000
+Percent error in rpms: 0.000000
+Number of data surfaces: 17
+Number of cylinders: 2051
+Blocks per disk: 2687632
+Sparing scheme used: 1
+Per-request overhead time: 0.000000
+Time scale for overheads: 1.000000
+Bulk sector transfer time: 0.000000
+Hold bus entire read xfer: 1
+Hold bus entire write xfer: 0
+Allow almost read hits: 0
+Allow sneaky full read hits: 0
+Allow sneaky partial read hits: 0
+Allow sneaky intermediate read hits: 0
+Allow read hits on write data: 1
+Allow write prebuffering: 0
+Preseeking level: 0
+Never disconnect: 0
+Print stats for disk: 1
+Avg sectors per cylinder: 1024
+Max queue length at disk: 1
+Scheduling policy: 1
+Cylinder mapping strategy: 0
+Write initiation delay: 0.000000
+Read initiation delay: 0.000000
+Sequential stream scheme: 0
+Maximum concat size: 0
+Overlapping request scheme: 0
+Sequential stream diff maximum: 0
+Scheduling timeout scheme: 0
+Timeout time/weight: 0
+Timeout scheduling: 0
+Scheduling priority scheme: 0
+Priority scheduling: 0
+Number of buffer segments: 2
+Maximum number of write segments: 1
+Segment size (in blks): 256
+Use separate write segment: 1
+Low (write) water mark: 0.750000
+High (read) water mark: 0.750000
+Set watermark by reqsize: 1
+Calc sector by sector: 1
+Enable caching in buffer: 1
+Buffer continuous read: 3
+Minimum read-ahead (blks): 0
+Maximum read-ahead (blks): 128
+Read-ahead over requested: 1
+Read-ahead on idle hit: 1
+Read any free blocks: 0
+Fast write level: 0
+Immediate buffer read: 0
+Immediate buffer write: 0
+Combine seq writes: 1
+Stop prefetch in sector: 1
+Disconnect write if seek: 0
+Write hit stop prefetch: 1
+Read directly to buffer: 1
+Immed transfer partial hit: 1
+Read hit over. after read: 0.953430
+Read hit over. after write: 0.953430
+Read miss over. after read: 0.558210
+Read miss over. after write: 0.558210
+Write over. after read: 0.823910
+Write over. after write: 0.823910
+Read completion overhead: 0.056650
+Write completion overhead: 0.050450
+Data preparation overhead: 0.025190
+First reselect overhead: 0.162490
+Other reselect overhead: 0.128830
+Read disconnect afterread: 0.022660
+Read disconnect afterwrite: 0.045510
+Write disconnect overhead: 0.165650
+Extra write disconnect: 1
+Extradisc command overhead: 0.642440
+Extradisc disconnect overhead: 0.045510
+Extradisc inter-disconnect delay: 0.428850
+Extradisc 2nd disconnect overhead: 0.134370
+Extradisc seek delta: 0.250000
+Minimum seek delay: 0.600000
+Number of bands: 8
+Band #1
+First cylinder number: 0
+Last cylinder number: 558
+Blocks per track: 96
+Offset of first block: 0.000000
+Empty space at zone front: 1632
+Skew for track switch: 14.000000
+Skew for cylinder switch: 32.000000
+Number of spares: 425
+Number of slips: 0
+Number of defects: 0
+blksinband 869856, sparecnt 425, blkspertrack 96, numtracks 9503
+Band #2
+First cylinder number: 559
+Last cylinder number: 760
+Blocks per track: 92
+Offset of first block: 14.000000
+Empty space at zone front: 0
+Skew for track switch: 13.000000
+Skew for cylinder switch: 30.000000
+Number of spares: 170
+Number of slips: 0
+Number of defects: 0
+blksinband 300288, sparecnt 170, blkspertrack 92, numtracks 3434
+Band #3
+First cylinder number: 761
+Last cylinder number: 901
+Blocks per track: 88
+Offset of first block: 73.000000
+Empty space at zone front: 0
+Skew for track switch: 13.000000
+Skew for cylinder switch: 29.000000
+Number of spares: 85
+Number of slips: 0
+Number of defects: 0
+blksinband 203456, sparecnt 85, blkspertrack 88, numtracks 2397
+Band #4
+First cylinder number: 902
+Last cylinder number: 1051
+Blocks per track: 84
+Offset of first block: 80.000000
+Empty space at zone front: 0
+Skew for track switch: 12.000000
+Skew for cylinder switch: 28.000000
+Number of spares: 102
+Number of slips: 0
+Number of defects: 0
+blksinband 205632, sparecnt 102, blkspertrack 84, numtracks 2550
+Band #5
+First cylinder number: 1052
+Last cylinder number: 1193
+Blocks per track: 80
+Offset of first block: 52.000000
+Empty space at zone front: 0
+Skew for track switch: 12.000000
+Skew for cylinder switch: 27.000000
+Number of spares: 68
+Number of slips: 0
+Number of defects: 0
+blksinband 187680, sparecnt 68, blkspertrack 80, numtracks 2414
+Band #6
+First cylinder number: 1194
+Last cylinder number: 1519
+Blocks per track: 72
+Offset of first block: 0.000000
+Empty space at zone front: 0
+Skew for track switch: 11.000000
+Skew for cylinder switch: 24.000000
+Number of spares: 136
+Number of slips: 0
+Number of defects: 0
+blksinband 389232, sparecnt 136, blkspertrack 72, numtracks 5542
+Band #7
+First cylinder number: 1520
+Last cylinder number: 1793
+Blocks per track: 64
+Offset of first block: 32.000000
+Empty space at zone front: 0
+Skew for track switch: 10.000000
+Skew for cylinder switch: 22.000000
+Number of spares: 102
+Number of slips: 0
+Number of defects: 0
+blksinband 291584, sparecnt 102, blkspertrack 64, numtracks 4658
+Band #8
+First cylinder number: 1794
+Last cylinder number: 2050
+Blocks per track: 56
+Offset of first block: 30.000000
+Empty space at zone front: 0
+Skew for track switch: 9.000000
+Skew for cylinder switch: 19.000000
+Number of spares: 85
+Number of slips: 0
+Number of defects: 0
+blksinband 239904, sparecnt 85, blkspertrack 56, numtracks 4369
+
+PHYSICAL ORGANIZATION
+
+Driver #1
+# of connected buses: 1
+Connected buses:   1
+
+Controller #1-2
+# of connected buses: 1
+Connected buses:   #+1
+
+Bus #1
+# of utilized slots: 2
+Slots: Controllers 1-2
+
+Bus #2-3
+# of utilized slots: 2
+Slots: Controllers #-1
+Slots: Disks #-1
+
+SYNCHRONIZATION
+
+Number of synchronized sets: 0
+
+
+LOGICAL ORGANIZATION
+
+# of system-level organizations: 1
+Organization #1: Parts Asis Noredun Whole
+Number of disks: 2
+Disks: 1-2
+High-level device number: 1
+Stripe unit (in sectors): 64
+Synch writes for safety: 0
+Number of copies: 2
+Copy choice on read: 6
+RMW vs. reconstruct: 0.500000
+Parity stripe unit: 64
+Parity rotation type: 1
+Time stamp interval: 0.000000
+Time stamp start time: 60000.000000
+Time stamp stop time: 10000000000.000000
+Time stamp file name :        stamps
+
+# of controller-level organizations: 0
+Readparams complete
+Initialization complete
+Simulation complete
+
+SIMULATION STATISTICS
+---------------------
+
+Total time of run:       603064588.892000
+
+Warm-up time:            0.000000
+
+
+STORAGE SUBSYSTEM STATISTICS
+----------------------------
+
+Total reads:    	13040	 0.29
+Total writes:   	31479	 0.71
+Sync Reads:  	11592	 0.26	 0.89
+Sync Writes: 	15498	 0.35	 0.49
+Async Reads: 	1448	 0.03	 0.11
+Async Writes:	15981	 0.36	 0.51
+Mapped disk #0 Trace queue time average: 	96.467198
+Mapped disk #0 Trace queue time std.dev.:	267.887899
+Mapped disk #0 Trace queue time maximum:	6742.954000
+Mapped disk #0 Trace queue time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+  25979     375     996    2848    1638    1251     887     710    1028    6540 
+Mapped disk #0 Trace response time average: 	121.821533
+Mapped disk #0 Trace response time std.dev.:	267.328768
+Mapped disk #0 Trace response time maximum:	6780.843000
+Mapped disk #0 Trace response time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+      0     583    8000   16007    4254    3185    1187     868    1141    7027 
+Mapped disk #0 Trace access time average: 	25.354335
+Mapped disk #0 Trace access time std.dev.:	9.213728
+Mapped disk #0 Trace access time maximum:	237.519000
+Mapped disk #0 Trace access time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+      0     682   13033   25467    3057       2       3       2       5       1 
+Mapped disk #0 Trace queue length average: 	5.121296
+Mapped disk #0 Trace queue length std.dev.:	9.269074
+Mapped disk #0 Trace queue length maximum:	104
+Mapped disk #0 Trace queue length distribution
+   =  1    =  2    <  5    <  8    < 12    < 18    < 25    < 35    < 50     50+
+  25480    4163    2740    1895    1873    2374    1768    1071     579     309 
+Mapped disk #0 Trace non-queue time average: 	0.096596
+Mapped disk #0 Trace non-queue time std.dev.:	0.068645
+Mapped disk #0 Trace non-queue time maximum:	1.431000
+Mapped disk #0 Trace non-queue time distribution
+  < 0.1   < 0.2   < 0.3   < 0.4   < 0.5   < 0.7   < 0.9   < 1.2   < 1.5     15+
+  16003    8310     903     141      64      28      14      11       6       0 
+Mapped disk #1 Trace queue time average: 	1.013734
+Mapped disk #1 Trace queue time std.dev.:	5.717907
+Mapped disk #1 Trace queue time maximum:	91.688000
+Mapped disk #1 Trace queue time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+   2195       5      17      38       9       2       1       0       0       0 
+Mapped disk #1 Trace response time average: 	21.140454
+Mapped disk #1 Trace response time std.dev.:	13.229097
+Mapped disk #1 Trace response time maximum:	239.738000
+Mapped disk #1 Trace response time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+      0     215    1044     891      83      27       3       0       3       1 
+Mapped disk #1 Trace access time average: 	20.126720
+Mapped disk #1 Trace access time std.dev.:	10.740933
+Mapped disk #1 Trace access time maximum:	196.048000
+Mapped disk #1 Trace access time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+      0     248    1037     914      62       3       0       0       3       0 
+Mapped disk #1 Trace queue length average: 	1.045434
+Mapped disk #1 Trace queue length std.dev.:	0.278885
+Mapped disk #1 Trace queue length maximum:	6
+Mapped disk #1 Trace queue length distribution
+   =  1    =  2    <  5    <  8    < 12    < 18    < 25    < 35    < 50     50+
+   2192      54      19       2       0       0       0       0       0       0 
+Mapped disk #1 Trace non-queue time average: 	0.098108
+Mapped disk #1 Trace non-queue time std.dev.:	0.066061
+Mapped disk #1 Trace non-queue time maximum:	0.826000
+Mapped disk #1 Trace non-queue time distribution
+  < 0.1   < 0.2   < 0.3   < 0.4   < 0.5   < 0.7   < 0.9   < 1.2   < 1.5     15+
+   1501     561      89      33       5       2       1       0       0       0 
+
+SYSTEM-LEVEL LOGORG STATISTICS
+------------------------------
+
+System Logical Organization #0
+System logorg #0 Number of requests:       44519
+System logorg #0 Number of read requests:  13040  	0.292909
+System logorg #0 Number of accesses:       44519
+System logorg #0 Number of read accesses:  13040  	0.292909
+System logorg #0 Average outstanding:      0.003601
+System logorg #0 Maximum outstanding:      103
+System logorg #0 Avg nonzero outstanding:  4.121462
+System logorg #0 Completely idle time:     602537662.040703
+System logorg #0 Response time average: 	48.783785
+System logorg #0 Response time std.dev.:	95.957127
+System logorg #0 Response time maximum:	1171.612055
+System logorg #0 Response time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+   3597    8836   18264    4677    1263    1315    1043     896    1312    3314 
+System logorg #0 Time-critical reads:  11592
+System logorg #0 Time-critical writes: 15498
+System logorg #0 Inter-arrival time average: 	13546.229450
+System logorg #0 Inter-arrival time std.dev.:	132900.772850
+System logorg #0 Inter-arrival time maximum:	1769905.338000
+System logorg #0 Inter-arrival time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+  11963    1009    6056   13902    4028    1403     880     572     573    4133 
+System logorg #0 Read inter-arrival average: 	46242.892838
+System logorg #0 Read inter-arrival std.dev.:	260514.241179
+System logorg #0 Read inter-arrival maximum:	1800600.551000
+System logorg #0 Read inter-arrival distribution
+   <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
+    309      33     617    1015    1655    1626    2375    1294     573    3543 
+System logorg #0 Write inter-arrival average: 	19157.679370
+System logorg #0 Write inter-arrival std.dev.:	161902.473705
+System logorg #0 Write inter-arrival maximum:	1829999.004000
+System logorg #0 Write inter-arrival distribution
+   <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
+  11365     670    1375    1994    2592    2457    3266    1536     603    5621 
+System logorg #0 Number of streaks:		2758
+System logorg #0 Streak length average: 	16.141769
+System logorg #0 Streak length std.dev.:	90.124987
+System logorg #0 Streak length maximum:	3084
+System logorg #0 Streak length distribution
+   =  1    =  2    =  3    =  4    =  5    =  6    =  7    =  8    =  9     10+
+   1121     650     220     158     132      39      14       7       4     413 
+System logorg #0 Timestamped # outstanding distribution (interval = 0.000000)
+     0       1       2       3       4       5       6       7       8      9+
+     0       0       0       0       0       0       0       0       0       0
+System logorg #0 Timestamped avg # outstanding difference distribution
+   <.5      <1    <1.5      <2    <2.5      <3      <4      <5      <6      6+
+     0       0       0       0       0       0       0       0       0       0
+System logorg #0 Timestamped max # outstanding difference distribution
+   <.5      <1    <1.5      <2    <2.5      <3      <4      <5      <6      6+
+     0       0       0       0       0       0       0       0       0       0
+System logorg #0 Request size average: 	11.551652
+System logorg #0 Request size std.dev.:	7.879371
+System logorg #0 Request size maximum:	512
+System logorg #0 Request size distribution
+   =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
+      0    5071       0    9191     241    1886    1081   26912      26     111 
+System logorg #0 Read request size average: 	9.215491
+System logorg #0 Read request size std.dev.:	5.723770
+System logorg #0 Read request size maximum:	32
+System logorg #0 Read request size distribution
+   =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
+      0    1241       0    4380     155    1737     864    4607       9      47 
+System logorg #0 Write request size average: 	12.519394
+System logorg #0 Write request size std.dev.:	8.428168
+System logorg #0 Write request size maximum:	512
+System logorg #0 Write request size distribution
+   =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
+      0    3830       0    4811      86     149     217   22305      17      64 
+System logorg #0 Number of idle periods:	30479
+System logorg #0 Idle period length average: 	19768.944586
+System logorg #0 Idle period length std.dev.:	160230.199655
+System logorg #0 Idle period length maximum:	1769872.111885
+System logorg #0 Idle period length distribution
+   <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
+   1935    3649    4611    4483    3279    2084    2089     984     631    6734 
+System logorg #0 disk Seeks of zero distance:	19134	0.445817
+System logorg #0 disk Seek distance average: 	42.154850
+System logorg #0 disk Seek distance std.dev.:	75.505445
+System logorg #0 disk Seek distance maximum:	396
+System logorg #0 disk Seek distance distribution
+   =  0    <  6    < 21    < 41    < 81    <161    <321    <641    <1281    1281+
+  19134    6571    3962    2639    2309    3398    4639     267       0       0 
+System logorg #0 disk Seek time average: 	3.845188
+System logorg #0 disk Seek time std.dev.:	3.207660
+System logorg #0 disk Seek time maximum:	10.618400
+System logorg #0 disk Seek time distribution
+   =  0    <  6    <  8    < 10    < 13    < 16    < 20    < 24    < 28     28+
+   8953   21719    5461    6396     390       0       0       0       0       0 
+System logorg #0 disk Zero rotate latency:	0	0.000000
+System logorg #0 disk Rotational latency average: 	5.722085
+System logorg #0 disk Rotational latency std.dev.:	3.231271
+System logorg #0 disk Rotational latency maximum:	11.415516
+System logorg #0 disk Rotational latency distribution
+   <  1    <  3    <  5    <  7    <  8    <  9    < 11    < 13    < 15     15+
+   3322    7756    7461    7659    3442    3937    8689     653       0       0 
+System logorg #0 disk Transfer time average: 	1.501841
+System logorg #0 disk Transfer time std.dev.:	1.181799
+System logorg #0 disk Transfer time maximum:	68.981481
+System logorg #0 disk Transfer time distribution
+  < 0.5   < 1.0   < 1.5   < 2.0   < 2.5   < 3.0   < 4.0   < 5.0   < 6.0     60+
+  13866    1932     869   21897      26      60    4128       5     102      34 
+System logorg #0 disk Access time average: 	11.069114
+System logorg #0 disk Access time std.dev.:	4.675503
+System logorg #0 disk Access time maximum:	82.922399
+System logorg #0 disk Access time distribution
+   <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
+   4618   12673   16787    7752    1074       4       1       4       3       3 
+System logorg #0 disk Number of buffer accesses:    44518
+System logorg #0 disk Buffer hit ratio:          1621 	0.036412
+System logorg #0 disk Buffer miss ratio:             42897 	0.963588
+System logorg #0 disk Buffer read hit ratio:          1581 	0.121242 	0.035514
+System logorg #0 disk Buffer prepend hit ratio:            0 	0.000000
+System logorg #0 disk Buffer append hit ratio:            0 	0.000000
+System logorg #0 disk Write combinations:                0 	0.000000
+System logorg #0 disk Ongoing read-ahead hit ratio:     19 	0.001457 	0.000427
+System logorg #0 disk Average read-ahead hit size:  6.842105
+System logorg #0 disk Average remaining read-ahead: 7.473684
+System logorg #0 disk Partial read hit ratio:     21 	0.001610 	0.000472
+System logorg #0 disk Average partial hit size:     7.857143
+System logorg #0 disk Average remaining partial:    7.761905
+System logorg #0 disk Total disk bus wait time: 0.000000
+System logorg #0 disk Number of disk bus waits: 70665
+
+IODRIVER STATISTICS
+-------------------
+
+IOdriver Total Requests handled:	44517
+IOdriver Requests per second:   	0.073818
+IOdriver Completely idle time:  	602800552.413015   	0.999562
+IOdriver Response time average: 	48.783785
+IOdriver Response time std.dev.:	95.957127
+IOdriver Response time maximum:	1171.612055
+IOdriver Response time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+   3597    8836   18264    4677    1263    1315    1043     896    1312    3314 
+IOdriver Overlaps combined:     	0	0.000000
+IOdriver Read overlaps combined:	0	0.000000	0.000000
+IOdriver Critical Reads:      	 11592  	0.260383
+IOdriver Critical Read Response time average: 	11.149654
+IOdriver Critical Read Response time std.dev.:	6.575816
+IOdriver Critical Read Response time maximum:	193.032474
+IOdriver Critical Read Response time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+   1783    2968    6360     464       3       4       4       5       1       0 
+IOdriver Non-Critical Reads:  	  1448  	0.032525
+IOdriver Non-Critical Read Response time average: 	14.748950
+IOdriver Non-Critical Read Response time std.dev.:	12.309946
+IOdriver Non-Critical Read Response time maximum:	78.618880
+IOdriver Non-Critical Read Response time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+    473     111     402     420      36       6       0       0       0       0 
+IOdriver Critical Writes:     	 15498  	0.348121
+IOdriver Critical Write Response time average: 	12.632897
+IOdriver Critical Write Response time std.dev.:	8.012077
+IOdriver Critical Write Response time maximum:	349.670202
+IOdriver Critical Write Response time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+   1206    4669    8075    1432      74      30      10       0       0       2 
+IOdriver Non-Critical Writes: 	 15979  	0.358925
+IOdriver Non-Critical Write Response time average: 	114.232421
+IOdriver Non-Critical Write Response time std.dev.:	137.337838
+IOdriver Non-Critical Write Response time maximum:	1171.612055
+IOdriver Non-Critical Write Response time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+    135    1088    3427    2361    1150    1275    1029     891    1311    3312 
+IOdriver Number of reads:     13040  	0.292909
+IOdriver Number of writes:    31479  	0.707091
+IOdriver Sequential reads:       78  	0.005982  	0.001752
+IOdriver Sequential writes:     521  	0.016551  	0.011703
+IOdriver Average # requests:      0.001801
+IOdriver Maximum # requests:      103
+IOdriver End # requests:          2
+IOdriver Average queue length:    0.001363
+IOdriver Maximum queue length:    102
+IOdriver End queued requests:     1
+IOdriver Queue time average: 	36.920704
+IOdriver Queue time std.dev.:	95.397794
+IOdriver Queue time maximum:	1163.741684
+IOdriver Queue time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+  31677    1044    2105    1408     978    1203     979     861    1269    2994 
+IOdriver Avg # read requests:     0.000125
+IOdriver Max # read requests:     3
+IOdriver Avg # write requests:    0.001676
+IOdriver Max # write requests:    103
+IOdriver Physical access time average: 	11.862252
+IOdriver Physical access time std.dev.:	4.950267
+IOdriver Physical access time maximum:	83.994119
+IOdriver Physical access time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+   3876   11932   26426    2273       7       3       0       0       0       0 
+IOdriver Inter-arrival time average: 	27091.172151
+IOdriver Inter-arrival time std.dev.:	196421.334717
+IOdriver Inter-arrival time maximum:	1800616.589000
+IOdriver Inter-arrival time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+  11893    1008    5316   12896    4512    1661     998     748     653    4834 
+IOdriver Read inter-arrival average: 	92485.784258
+IOdriver Read inter-arrival std.dev.:	367555.400771
+IOdriver Read inter-arrival maximum:	1800643.633000
+IOdriver Read inter-arrival distribution
+   <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
+    306      33     272     900    1360    1315    2229    1539     800    4286 
+IOdriver Write inter-arrival average: 	37455.840400
+IOdriver Write inter-arrival std.dev.:	1883556.279944
+IOdriver Write inter-arrival maximum:	306347176.029000
+IOdriver Write inter-arrival distribution
+   <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
+  11300     671    1375    1994    2591    2457    3266    1536     603    5686 
+IOdriver Number of idle periods:  30592
+IOdriver Idle period length average: 	39409.031931
+IOdriver Idle period length std.dev.:	235919.389618
+IOdriver Idle period length maximum:	1800607.570769
+IOdriver Idle period length distribution
+   <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
+   1730    3187    4148    4139    3092    2083    2255    1246     697    8015 
+IOdriver Request size average: 	11.551652
+IOdriver Request size std.dev.:	7.879371
+IOdriver Request size maximum:	512
+IOdriver Request size distribution
+   =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
+      0    5071       0    9191     241    1886    1081   26912      26     111 
+IOdriver Read request size average: 	9.215491
+IOdriver Read request size std.dev.:	5.723770
+IOdriver Read request size maximum:	32
+IOdriver Read request size distribution
+   =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
+      0    1241       0    4380     155    1737     864    4607       9      47 
+IOdriver Write request size average: 	12.519394
+IOdriver Write request size std.dev.:	8.428168
+IOdriver Write request size maximum:	512
+IOdriver Write request size distribution
+   =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
+      0    3830       0    4811      86     149     217   22305      17      64 
+IOdriver Instantaneous queue length average: 	3.772362
+IOdriver Instantaneous queue length std.dev.:	7.664322
+IOdriver Instantaneous queue length maximum:	102
+IOdriver Instantaneous queue length distribution
+   =  1    =  2    =  3    <  6    < 10    < 20    < 40    < 80    <150    150+
+  34330    1284     743    1135    1698    3243    1731     321      33       0 
+IOdriver Sub-optimal mapping penalty average: 	372.985112
+IOdriver Sub-optimal mapping penalty std.dev.:	74.964738
+IOdriver Sub-optimal mapping penalty maximum:	411
+IOdriver Sub-optimal mapping penalty distribution
+   = -1    =  0    =  1    =  2    =  3    =  4    < 10    < 20    < 40     40+
+      0       4       7       0       0       0       0       0       0     392 
+
+I/O Driver #0 - Device #0
+IOdriver #0 device #0 Total Requests handled:	42250
+IOdriver #0 device #0 Requests per second:   	0.070059
+IOdriver #0 device #0 Completely idle time:  	602555753.622001   	0.999156
+IOdriver #0 device #0 Response time average: 	50.936327
+IOdriver #0 device #0 Response time std.dev.:	98.029815
+IOdriver #0 device #0 Response time maximum:	1171.612055
+IOdriver #0 device #0 Response time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+   3173    7822   17454    4661    1262    1313    1043     896    1312    3314 
+IOdriver #0 device #0 Overlaps combined:     	0	0.000000
+IOdriver #0 device #0 Read overlaps combined:	0	0.000000	0.000000
+IOdriver #0 device #0 Critical Reads:      	  9439  	0.223398
+IOdriver #0 device #0 Critical Read Response time average: 	11.786448
+IOdriver #0 device #0 Critical Read Response time std.dev.:	6.952645
+IOdriver #0 device #0 Critical Read Response time maximum:	193.032474
+IOdriver #0 device #0 Critical Read Response time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+   1363    1996    5599     464       3       4       4       5       1       0 
+IOdriver #0 device #0 Non-Critical Reads:  	  1448  	0.034271
+IOdriver #0 device #0 Non-Critical Read Response time average: 	14.748950
+IOdriver #0 device #0 Non-Critical Read Response time std.dev.:	12.309946
+IOdriver #0 device #0 Non-Critical Read Response time maximum:	78.618880
+IOdriver #0 device #0 Non-Critical Read Response time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+    473     111     402     420      36       6       0       0       0       0 
+IOdriver #0 device #0 Critical Writes:     	 15384  	0.364101
+IOdriver #0 device #0 Critical Write Response time average: 	12.619032
+IOdriver #0 device #0 Critical Write Response time std.dev.:	7.984408
+IOdriver #0 device #0 Critical Write Response time maximum:	349.670202
+IOdriver #0 device #0 Critical Write Response time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+   1202    4627    8026    1416      73      28      10       0       0       2 
+IOdriver #0 device #0 Non-Critical Writes: 	 15979  	0.378183
+IOdriver #0 device #0 Non-Critical Write Response time average: 	114.232421
+IOdriver #0 device #0 Non-Critical Write Response time std.dev.:	137.337838
+IOdriver #0 device #0 Non-Critical Write Response time maximum:	1171.612055
+IOdriver #0 device #0 Non-Critical Write Response time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+    135    1088    3427    2361    1150    1275    1029     891    1311    3312 
+IOdriver #0 device #0 Number of reads:     10887  	0.257668
+IOdriver #0 device #0 Number of writes:    31365  	0.742332
+IOdriver #0 device #0 Sequential reads:       77  	0.007073  	0.001822
+IOdriver #0 device #0 Sequential writes:     481  	0.015336  	0.011384
+IOdriver #0 device #0 Average # requests:      0.003569
+IOdriver #0 device #0 Maximum # requests:      103
+IOdriver #0 device #0 End # requests:          2
+IOdriver #0 device #0 Average queue length:    0.002725
+IOdriver #0 device #0 Maximum queue length:    102
+IOdriver #0 device #0 End queued requests:     1
+IOdriver #0 device #0 Queue time average: 	38.891994
+IOdriver #0 device #0 Queue time std.dev.:	97.532521
+IOdriver #0 device #0 Queue time maximum:	1163.741684
+IOdriver #0 device #0 Queue time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+  29440    1034    2090    1403     978    1203     979     861    1269    2994 
+IOdriver #0 device #0 Avg # read requests:     0.000220
+IOdriver #0 device #0 Max # read requests:     3
+IOdriver #0 device #0 Avg # write requests:    0.003349
+IOdriver #0 device #0 Max # write requests:    103
+IOdriver #0 device #0 Physical access time average: 	12.043413
+IOdriver #0 device #0 Physical access time std.dev.:	4.941426
+IOdriver #0 device #0 Physical access time maximum:	83.994119
+IOdriver #0 device #0 Physical access time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+   3446   10915   25611    2270       6       2       0       0       0       0 
+IOdriver #0 device #0 Inter-arrival time average: 	14273.042433
+IOdriver #0 device #0 Inter-arrival time std.dev.:	136384.617132
+IOdriver #0 device #0 Inter-arrival time maximum:	1769948.452000
+IOdriver #0 device #0 Inter-arrival time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+  11856    1005    5045   12398    4090    1500     987     686     579    4106 
+IOdriver #0 device #0 Read inter-arrival average: 	55387.831598
+IOdriver #0 device #0 Read inter-arrival std.dev.:	284279.700944
+IOdriver #0 device #0 Read inter-arrival maximum:	1800643.633000
+IOdriver #0 device #0 Read inter-arrival distribution
+   <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
+    305      33     237     664    1245    1159    2002    1188     730    3324 
+IOdriver #0 device #0 Write inter-arrival average: 	19227.310342
+IOdriver #0 device #0 Write inter-arrival std.dev.:	162192.313650
+IOdriver #0 device #0 Write inter-arrival maximum:	1829999.004000
+IOdriver #0 device #0 Write inter-arrival distribution
+   <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
+  11264     668    1375    1994    2591    2457    3266    1536     603    5611 
+IOdriver #0 device #0 Number of idle periods:  28362
+IOdriver #0 device #0 Idle period length average: 	21245.178535
+IOdriver #0 device #0 Idle period length std.dev.:	166011.880937
+IOdriver #0 device #0 Idle period length maximum:	1769914.370885
+IOdriver #0 device #0 Idle period length distribution
+   <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
+   1681    3038    3998    3989    2979    1923    1951    1134     664    7005 
+IOdriver #0 device #0 Request size average: 	11.769668
+IOdriver #0 device #0 Request size std.dev.:	7.551731
+IOdriver #0 device #0 Request size maximum:	512
+IOdriver #0 device #0 Request size distribution
+   =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
+      0    5071       0    8096     241    1054     805   26902      16      67 
+IOdriver #0 device #0 Read request size average: 	9.672270
+IOdriver #0 device #0 Read request size std.dev.:	5.906583
+IOdriver #0 device #0 Read request size maximum:	32
+IOdriver #0 device #0 Read request size distribution
+   =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
+      0    1241       0    3346     155     921     598    4601       4      21 
+IOdriver #0 device #0 Write request size average: 	12.497689
+IOdriver #0 device #0 Write request size std.dev.:	7.915614
+IOdriver #0 device #0 Write request size maximum:	512
+IOdriver #0 device #0 Write request size distribution
+   =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
+      0    3830       0    4750      86     133     207   22301      12      46 
+IOdriver #0 device #0 Instantaneous queue length average: 	3.920617
+IOdriver #0 device #0 Instantaneous queue length std.dev.:	7.839717
+IOdriver #0 device #0 Instantaneous queue length maximum:	102
+IOdriver #0 device #0 Instantaneous queue length distribution
+   =  1    =  2    =  3    <  6    < 10    < 20    < 40    < 80    <150    150+
+  32078    1273     741    1133    1698    3243    1731     321      33       0 
+IOdriver #0 device #0 Sub-optimal mapping penalty average: 	372.985112
+IOdriver #0 device #0 Sub-optimal mapping penalty std.dev.:	74.964738
+IOdriver #0 device #0 Sub-optimal mapping penalty maximum:	411
+IOdriver #0 device #0 Sub-optimal mapping penalty distribution
+   = -1    =  0    =  1    =  2    =  3    =  4    < 10    < 20    < 40     40+
+      0       4       7       0       0       0       0       0       0     392 
+
+I/O Driver #0 - Device #1
+IOdriver #0 device #1 Total Requests handled:	2267
+IOdriver #0 device #1 Requests per second:   	0.003759
+IOdriver #0 device #1 Completely idle time:  	603045351.204029   	0.999968
+IOdriver #0 device #1 Response time average: 	8.666945
+IOdriver #0 device #1 Response time std.dev.:	4.313788
+IOdriver #0 device #1 Response time maximum:	77.214998
+IOdriver #0 device #1 Response time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+    424    1014     810      16       1       2       0       0       0       0 
+IOdriver #0 device #1 Overlaps combined:     	0	0.000000
+IOdriver #0 device #1 Read overlaps combined:	0	0.000000	0.000000
+IOdriver #0 device #1 Critical Reads:      	  2153  	0.949713
+IOdriver #0 device #1 Critical Read Response time average: 	8.357875
+IOdriver #0 device #1 Critical Read Response time std.dev.:	3.364480
+IOdriver #0 device #1 Critical Read Response time maximum:	19.726237
+IOdriver #0 device #1 Critical Read Response time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+    420     972     761       0       0       0       0       0       0       0 
+IOdriver #0 device #1 Non-Critical Reads:  	     0  	0.000000
+IOdriver #0 device #1 Non-Critical Read Response time average: 	0.000000
+IOdriver #0 device #1 Non-Critical Read Response time std.dev.:	0.000000
+IOdriver #0 device #1 Non-Critical Read Response time maximum:	0
+IOdriver #0 device #1 Non-Critical Read Response time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+      0       0       0       0       0       0       0       0       0       0 
+IOdriver #0 device #1 Critical Writes:     	   114  	0.050287
+IOdriver #0 device #1 Critical Write Response time average: 	14.504038
+IOdriver #0 device #1 Critical Write Response time std.dev.:	10.972399
+IOdriver #0 device #1 Critical Write Response time maximum:	77.214998
+IOdriver #0 device #1 Critical Write Response time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+      4      42      49      16       1       2       0       0       0       0 
+IOdriver #0 device #1 Non-Critical Writes: 	     0  	0.000000
+IOdriver #0 device #1 Non-Critical Write Response time average: 	0.000000
+IOdriver #0 device #1 Non-Critical Write Response time std.dev.:	0.000000
+IOdriver #0 device #1 Non-Critical Write Response time maximum:	0
+IOdriver #0 device #1 Non-Critical Write Response time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+      0       0       0       0       0       0       0       0       0       0 
+IOdriver #0 device #1 Number of reads:      2153  	0.949713
+IOdriver #0 device #1 Number of writes:      114  	0.050287
+IOdriver #0 device #1 Sequential reads:        1  	0.000464  	0.000441
+IOdriver #0 device #1 Sequential writes:      40  	0.350877  	0.017644
+IOdriver #0 device #1 Average # requests:      0.000033
+IOdriver #0 device #1 Maximum # requests:      5
+IOdriver #0 device #1 End # requests:          0
+IOdriver #0 device #1 Average queue length:    0.000001
+IOdriver #0 device #1 Maximum queue length:    4
+IOdriver #0 device #1 End queued requests:     0
+IOdriver #0 device #1 Queue time average: 	0.180978
+IOdriver #0 device #1 Queue time std.dev.:	1.620224
+IOdriver #0 device #1 Queue time maximum:	26.182829
+IOdriver #0 device #1 Queue time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+   2237      10      15       5       0       0       0       0       0       0 
+IOdriver #0 device #1 Avg # read requests:     0.000030
+IOdriver #0 device #1 Max # read requests:     1
+IOdriver #0 device #1 Avg # write requests:    0.000003
+IOdriver #0 device #1 Max # write requests:    5
+IOdriver #0 device #1 Physical access time average: 	8.485967
+IOdriver #0 device #1 Physical access time std.dev.:	3.758208
+IOdriver #0 device #1 Physical access time maximum:	66.864488
+IOdriver #0 device #1 Physical access time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+    430    1017     815       3       1       1       0       0       0       0 
+IOdriver #0 device #1 Inter-arrival time average: 	265993.517475
+IOdriver #0 device #1 Inter-arrival time std.dev.:	592317.205885
+IOdriver #0 device #1 Inter-arrival time maximum:	1800616.589000
+IOdriver #0 device #1 Inter-arrival time distribution
+   <  5    < 10    < 20    < 40    < 60    < 90    <120    <150    <200    200+
+     37       3     271     498     422     161      11      62      74     728 
+IOdriver #0 device #1 Read inter-arrival average: 	280077.707438
+IOdriver #0 device #1 Read inter-arrival std.dev.:	606162.507402
+IOdriver #0 device #1 Read inter-arrival maximum:	1800616.589000
+IOdriver #0 device #1 Read inter-arrival distribution
+   <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
+      1       0      35     236     115     156     227     351      70     962 
+IOdriver #0 device #1 Write inter-arrival average: 	5052700.096912
+IOdriver #0 device #1 Write inter-arrival std.dev.:	30776183.441731
+IOdriver #0 device #1 Write inter-arrival maximum:	306347176.029000
+IOdriver #0 device #1 Write inter-arrival distribution
+   <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
+     36       3       0       0       0       0       0       0       0      75 
+IOdriver #0 device #1 Number of idle periods:  2230
+IOdriver #0 device #1 Idle period length average: 	270423.924307
+IOdriver #0 device #1 Idle period length std.dev.:	596200.748565
+IOdriver #0 device #1 Idle period length maximum:	1800607.570769
+IOdriver #0 device #1 Idle period length distribution
+   <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
+     49     149     150     150     113     160     304     112      33    1010 
+IOdriver #0 device #1 Request size average: 	7.488311
+IOdriver #0 device #1 Request size std.dev.:	11.786336
+IOdriver #0 device #1 Request size maximum:	400
+IOdriver #0 device #1 Request size distribution
+   =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
+      0       0       0    1095       0     832     276      10      10      44 
+IOdriver #0 device #1 Read request size average: 	6.905713
+IOdriver #0 device #1 Read request size std.dev.:	3.952215
+IOdriver #0 device #1 Read request size maximum:	32
+IOdriver #0 device #1 Read request size distribution
+   =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
+      0       0       0    1034       0     816     266       6       5      26 
+IOdriver #0 device #1 Write request size average: 	18.491228
+IOdriver #0 device #1 Write request size std.dev.:	48.373954
+IOdriver #0 device #1 Write request size maximum:	400
+IOdriver #0 device #1 Write request size distribution
+   =  1    =  2    =  3    =  4    <  7    <  9    < 13    < 17    < 21     21+
+      0       0       0      61       0      16      10       4       5      18 
+IOdriver #0 device #1 Instantaneous queue length average: 	1.009263
+IOdriver #0 device #1 Instantaneous queue length std.dev.:	0.127418
+IOdriver #0 device #1 Instantaneous queue length maximum:	4
+IOdriver #0 device #1 Instantaneous queue length distribution
+   =  1    =  2    =  3    <  6    < 10    < 20    < 40    < 80    <150    150+
+   2252      11       2       2       0       0       0       0       0       0 
+IOdriver #0 device #1 Sub-optimal mapping penalty average: 	0.000000
+IOdriver #0 device #1 Sub-optimal mapping penalty std.dev.:	0.000000
+IOdriver #0 device #1 Sub-optimal mapping penalty maximum:	0
+IOdriver #0 device #1 Sub-optimal mapping penalty distribution
+   = -1    =  0    =  1    =  2    =  3    =  4    < 10    < 20    < 40     40+
+      0       0       0       0       0       0       0       0       0       0 
+
+DISK STATISTICS
+---------------
+
+Disk Seeks of zero distance:	19134	0.445817
+Disk Seek distance average: 	42.154850
+Disk Seek distance std.dev.:	75.505445
+Disk Seek distance maximum:	396
+Disk Seek distance distribution
+   =  0    <  6    < 21    < 41    < 81    <161    <321    <641    <1281    1281+
+  19134    6571    3962    2639    2309    3398    4639     267       0       0 
+Disk Seek time average: 	3.845188
+Disk Seek time std.dev.:	3.207660
+Disk Seek time maximum:	10.618400
+Disk Seek time distribution
+   =  0    <  6    <  8    < 10    < 13    < 16    < 20    < 24    < 28     28+
+   8953   21719    5461    6396     390       0       0       0       0       0 
+Disk Zero rotate latency:	0	0.000000
+Disk Rotational latency average: 	5.722085
+Disk Rotational latency std.dev.:	3.231271
+Disk Rotational latency maximum:	11.415516
+Disk Rotational latency distribution
+   <  1    <  3    <  5    <  7    <  8    <  9    < 11    < 13    < 15     15+
+   3322    7756    7461    7659    3442    3937    8689     653       0       0 
+Disk Transfer time average: 	1.501841
+Disk Transfer time std.dev.:	1.181799
+Disk Transfer time maximum:	68.981481
+Disk Transfer time distribution
+  < 0.5   < 1.0   < 1.5   < 2.0   < 2.5   < 3.0   < 4.0   < 5.0   < 6.0     60+
+  13866    1932     869   21897      26      60    4128       5     102      34 
+Disk Access time average: 	11.069114
+Disk Access time std.dev.:	4.675503
+Disk Access time maximum:	82.922399
+Disk Access time distribution
+   <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
+   4618   12673   16787    7752    1074       4       1       4       3       3 
+Disk Number of buffer accesses:    44518
+Disk Buffer hit ratio:          1621 	0.036412
+Disk Buffer miss ratio:             42897 	0.963588
+Disk Buffer read hit ratio:          1581 	0.121242 	0.035514
+Disk Buffer prepend hit ratio:            0 	0.000000
+Disk Buffer append hit ratio:            0 	0.000000
+Disk Write combinations:                0 	0.000000
+Disk Ongoing read-ahead hit ratio:     19 	0.001457 	0.000427
+Disk Average read-ahead hit size:  6.842105
+Disk Average remaining read-ahead: 7.473684
+Disk Partial read hit ratio:     21 	0.001610 	0.000472
+Disk Average partial hit size:     7.857143
+Disk Average remaining partial:    7.761905
+Disk Total disk bus wait time: 0.000000
+Disk Number of disk bus waits: 70665
+
+
+Disk #0:
+
+Disk #0 highest block number requested: 654055
+Disk #0 Seeks of zero distance:	17212	0.422941
+Disk #0 Seek distance average: 	44.450118
+Disk #0 Seek distance std.dev.:	76.881539
+Disk #0 Seek distance maximum:	396
+Disk #0 Seek distance distribution
+   =  0    <  6    < 21    < 41    < 81    <161    <321    <641    <1281    1281+
+  17212    6270    3962    2639    2309    3398    4639     267       0       0 
+Disk #0 Seek time average: 	3.992188
+Disk #0 Seek time std.dev.:	3.225784
+Disk #0 Seek time maximum:	10.618400
+Disk #0 Seek time distribution
+   =  0    <  6    <  8    < 10    < 13    < 16    < 20    < 24    < 28     28+
+   8893   19556    5461    6396     390       0       0       0       0       0 
+Disk #0 Full rotation time:      11.111111
+Disk #0 Zero rotate latency:	0	0.000000
+Disk #0 Rotational latency average: 	5.727312
+Disk #0 Rotational latency std.dev.:	3.234062
+Disk #0 Rotational latency maximum:	11.415516
+Disk #0 Rotational latency distribution
+   <  1    <  3    <  5    <  7    <  8    <  9    < 11    < 13    < 15     15+
+   3143    7354    7055    7249    3260    3730    8273     632       0       0 
+Disk #0 Transfer time average: 	1.536491
+Disk #0 Transfer time std.dev.:	1.146206
+Disk #0 Transfer time maximum:	68.981481
+Disk #0 Transfer time distribution
+  < 0.5   < 1.0   < 1.5   < 2.0   < 2.5   < 3.0   < 4.0   < 5.0   < 6.0     60+
+  12787    1110     597   21889      19      56    4111       5      96      26 
+Disk #0 Access time average: 	11.255991
+Disk #0 Access time std.dev.:	4.652911
+Disk #0 Access time maximum:	82.922399
+Disk #0 Access time distribution
+   <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
+   4024   11677   16165    7746    1072       3       1       4       2       2 
+Disk #0 Number of buffer accesses:    42251
+Disk #0 Buffer hit ratio:          1577 	0.037325
+Disk #0 Buffer miss ratio:             40674 	0.962675
+Disk #0 Buffer read hit ratio:          1537 	0.141178 	0.036378
+Disk #0 Buffer prepend hit ratio:            0 	0.000000
+Disk #0 Buffer append hit ratio:            0 	0.000000
+Disk #0 Write combinations:                0 	0.000000
+Disk #0 Ongoing read-ahead hit ratio:     19 	0.001745 	0.000450
+Disk #0 Average read-ahead hit size:  6.842105
+Disk #0 Average remaining read-ahead: 7.473684
+Disk #0 Partial read hit ratio:     21 	0.001929 	0.000497
+Disk #0 Average partial hit size:     7.857143
+Disk #0 Average remaining partial:    7.761905
+Disk #0 Total disk bus wait time: 0.000000
+Disk #0 Number of disk bus waits: 68380
+
+
+Disk #1:
+
+Disk #1 highest block number requested: 3339
+Disk #1 Seeks of zero distance:	1922	0.864597
+Disk #1 Seek distance average: 	0.135852
+Disk #1 Seek distance std.dev.:	0.343942
+Disk #1 Seek distance maximum:	2
+Disk #1 Seek distance distribution
+   =  0    <  6    < 21    < 41    < 81    <161    <321    <641    <1281    1281+
+   1922     301       0       0       0       0       0       0       0       0 
+Disk #1 Seek time average: 	1.154098
+Disk #1 Seek time std.dev.:	0.718996
+Disk #1 Seek time maximum:	4.330000
+Disk #1 Seek time distribution
+   =  0    <  6    <  8    < 10    < 13    < 16    < 20    < 24    < 28     28+
+     60    2163       0       0       0       0       0       0       0       0 
+Disk #1 Full rotation time:      11.111111
+Disk #1 Zero rotate latency:	0	0.000000
+Disk #1 Rotational latency average: 	5.626388
+Disk #1 Rotational latency std.dev.:	3.178222
+Disk #1 Rotational latency maximum:	11.195091
+Disk #1 Rotational latency distribution
+   <  1    <  3    <  5    <  7    <  8    <  9    < 11    < 13    < 15     15+
+    179     402     406     410     182     207     416      21       0       0 
+Disk #1 Transfer time average: 	0.867509
+Disk #1 Transfer time std.dev.:	1.577729
+Disk #1 Transfer time maximum:	52.777777
+Disk #1 Transfer time distribution
+  < 0.5   < 1.0   < 1.5   < 2.0   < 2.5   < 3.0   < 4.0   < 5.0   < 6.0     60+
+   1079     822     272       8       7       4      17       0       6       8 
+Disk #1 Access time average: 	7.647995
+Disk #1 Access time std.dev.:	3.657201
+Disk #1 Access time maximum:	65.792768
+Disk #1 Access time distribution
+   <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
+    594     996     622       6       2       1       0       0       1       1 
+Disk #1 Number of buffer accesses:    2267
+Disk #1 Buffer hit ratio:            44 	0.019409
+Disk #1 Buffer miss ratio:              2223 	0.980591
+Disk #1 Buffer read hit ratio:            44 	0.020437 	0.019409
+Disk #1 Buffer prepend hit ratio:            0 	0.000000
+Disk #1 Buffer append hit ratio:            0 	0.000000
+Disk #1 Write combinations:                0 	0.000000
+Disk #1 Ongoing read-ahead hit ratio:      0 	0.000000 	0.000000
+Disk #1 Average read-ahead hit size:  0.000000
+Disk #1 Average remaining read-ahead: 0.000000
+Disk #1 Partial read hit ratio:      0 	0.000000 	0.000000
+Disk #1 Average partial hit size:     0.000000
+Disk #1 Average remaining partial:    0.000000
+Disk #1 Total disk bus wait time: 0.000000
+Disk #1 Number of disk bus waits: 2285
+
+
+
+CONTROLLER STATISTICS
+---------------------
+
+Controller #0 
+
+Controller #1 
+
+Total controller bus wait time: 0.000000
+
+BUS STATISTICS
+--------------
+
+Bus #1
+Bus #1 Total utilization time: 	71985.27   	0.00012
+Bus #1 Bus idle period length average: 	6232.997081
+Bus #1 Bus idle period length std.dev.:	90406.117531
+Bus #1 Bus idle period length maximum:	1769914.370885
+Bus #1 Bus idle period length distribution
+   <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
+  34949   15515   19743   10378    3463    1934    1957    1134     664    7005 
+Bus #1 Number of arbitrations: 	110631
+Bus #1 Arbitration wait time average: 	0.000000
+Bus #1 Arbitration wait time std.dev.:	0.000000
+Bus #1 Arbitration wait time maximum:	0
+Bus #1 Arbitration wait time distribution
+   =  0    <  1    <  2    <  5    < 10    < 15    < 25    < 40    < 60     60+
+ 110631       0       0       0       0       0       0       0       0       0 
+
+Bus #2
+Bus #2 Total utilization time: 	2773.60   	0.00000
+Bus #2 Bus idle period length average: 	133568.508371
+Bus #2 Bus idle period length std.dev.:	440274.055169
+Bus #2 Bus idle period length maximum:	1800607.570769
+Bus #2 Bus idle period length distribution
+   <  5    < 10    < 15    < 20    < 25    < 30    < 40    < 50    < 60     60+
+    750    1143     732     156     113     161     305     112      33    1010 
+Bus #2 Number of arbitrations: 	4552
+Bus #2 Arbitration wait time average: 	0.000000
+Bus #2 Arbitration wait time std.dev.:	0.000000
+Bus #2 Arbitration wait time maximum:	0
+Bus #2 Arbitration wait time distribution
+   =  0    <  1    <  2    <  5    < 10    < 15    < 25    < 40    < 60     60+
+   4552       0       0       0       0       0       0       0       0       0 
+

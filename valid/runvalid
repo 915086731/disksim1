@@ -1,0 +1,75 @@
+#!/bin/sh
+
+echo ""
+echo "These results represent actual drive validation experiments"
+
+echo ""
+echo "HP_C2247_validate (rms should be about 0.090)"
+nice ../src/disksim parv.hpc2247 outv.hpc2247 validate trace.hpc2247 0
+../src/rms outv.hpc2247 outv.hpc2247 -1 -1 1
+
+echo ""
+echo "HP_C3323_validate (rms should be about 0.306)"
+nice ../src/disksim parv.hpc3323 outv.hpc3323 validate trace.hpc3323 0
+../src/rms outv.hpc3323 outv.hpc3323 -1 -1 1
+
+echo ""
+echo "HP_C2490_validate (rms should be about 0.254)"
+nice ../src/disksim parv.hpc2490 outv.hpc2490 validate trace.hpc2490 0
+../src/rms outv.hpc2490 outv.hpc2490 -1 -1 1
+
+echo ""
+echo "Seagate_ST41601N_validate (rms should be about 0.083)"
+nice ../src/disksim parv.seagate outv.seagate validate trace.seagate 0
+../src/rms outv.seagate outv.seagate -1 -1 1
+
+echo ""
+echo "DEC_RZ26_validate (rms should be about 0.438)"
+nice ../src/disksim parv.decrz26 outv.decrz26 validate trace.decrz26 0
+../src/rms outv.decrz26 outv.decrz26 -1 -1 1
+
+echo ""
+echo "The remaining tests exercise other DiskSim components"
+
+echo ""
+echo "Open synthetic workload (avg. resp. should be about 47.3ms)"
+nice ../src/disksim par.synthopen out.synthopen ascii 0 1
+grep "IOdriver Response time average" out.synthopen
+
+echo ""
+echo "Closed synthetic workload (avg. resp. should be about 87.6ms)"
+nice ../src/disksim par.synthclosed out.synthclosed ascii 0 1
+grep "IOdriver Response time average" out.synthclosed
+
+echo ""
+echo "Mixed synthetic workload (avg. resp. should be about 24.4ms)"
+nice ../src/disksim par.synthmixed out.synthmixed ascii 0 1
+grep "IOdriver Response time average" out.synthmixed
+
+echo ""
+echo "Cache at controller (avg. resp. should be about 23.0ms)"
+nice ../src/disksim par.synthcache out.synthcache ascii 0 1
+grep "IOdriver Response time average" out.synthcache
+
+echo ""
+echo "RAID 5 at device driver (avg. resp. should be about 22.8ms)"
+nice ../src/disksim par.synthraid5 out.synthraid5 ascii 0 1
+grep "IOdriver Response time average" out.synthraid5
+
+echo ""
+echo "Note: this validates HP trace input, *not* the corresponding traced disk"
+echo "HP srt trace input (avg. resp should be about 48.8ms)"
+zcat ajw.1week.srt.Z | nice ../src/disksim par.hplajw out.hplajw hpl stdin 0
+grep "IOdriver Response time average" out.hplajw
+
+echo ""
+echo "ASCII input (avg. resp should be about 13.8ms)"
+zcat trace.ascii.Z | nice ../src/disksim par.ascii out.ascii ascii stdin 0
+grep "IOdriver Response time average" out.ascii
+
+echo ""
+echo "syssim: externally-controller DiskSim (avg. resp should be about 19.6ms)"
+../src/syssim parv.seagate out.syssim 2676846
+grep "IOdriver Response time average" out.syssim
+echo ""
+

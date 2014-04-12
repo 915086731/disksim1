@@ -1,0 +1,2113 @@
+
+Disk brand name: HP_C3323A
+Access time (in msecs):    -2.0
+Seek time (in msecs):      -5.0
+Single cylinder seek time:  0.2
+Average seek time:          seekHPC3323
+Full strobe seek time:      2.30
+Add. write settling delay:  0.070
+HPL seek equation values:   300 3.7500 0.3300 7.6900 0.0059 -1
+First 10 seek times:        2.63 3.42 3.55 3.72 4.01 4.39 4.26 4.39 4.56 4.73
+Head switch time:           0.650
+Rotation speed (in rpms):   5400
+Percent error in rpms:      0.0
+Number of data surfaces:    7
+Number of cylinders:        2982
+Blocks per disk:            2056008
+Sparing scheme used:        1
+Per-request overhead time:  0.0
+Time scale for overheads:   1.0
+Bulk sector transfer time:  0.0
+Hold bus entire read xfer:  1
+Hold bus entire write xfer: 0
+Allow almost read hits:     0
+Allow sneaky full read hits: 0
+Allow sneaky partial read hits: 0
+Allow sneaky intermediate read hits: 0
+Allow read hits on write data: 1
+Allow write prebuffering:   0
+Preseeking level:           0
+Never disconnect:           0
+Print stats for disk:       1
+Avg sectors per cylinder:   1024
+Max queue length at disk:   1
+Scheduling policy:          1
+Cylinder mapping strategy:  0
+Write initiation delay:     0.0
+Read initiation delay:      0.0
+Sequential stream scheme:   0
+Maximum concat size:        0
+Overlapping request scheme: 0
+Sequential stream diff maximum: 0
+Scheduling timeout scheme:  0
+Timeout time/weight:        0
+Timeout scheduling:         0
+Scheduling priority scheme: 0
+Priority scheduling:        0
+Number of buffer segments:  2
+Maximum number of write segments:  1
+Segment size (in blks):     512
+Use separate write segment: 1
+Low (write) water mark:     1.0
+High (read) water mark:     1.0
+Set watermark by reqsize:   1
+Calc sector by sector:      1
+Enable caching in buffer:   1
+Buffer continuous read:     3
+Minimum read-ahead (blks):  0
+Maximum read-ahead (blks):  256
+Read-ahead over requested:  0
+Read-ahead on idle hit:     1
+Read any free blocks:       0
+Fast write level:           0
+Immediate buffer read:      0
+Immediate buffer write:     0
+Combine seq writes:         1
+Stop prefetch in sector:    1
+Disconnect write if seek:   0
+Write hit stop prefetch:    1
+Read directly to buffer:    1
+Immed transfer partial hit: 1
+Read hit over. after read:  0.34800
+Read hit over. after write: 1.38700
+Read miss over. after read: 2.50200
+Read miss over. after write: 2.50200
+Write over. after read:     3.29000
+Write over. after write:    2.92000
+Read completion overhead:   0.24100
+Write completion overhead:  0.00000
+Data preparation overhead:  0.00000
+First reselect overhead:    0.00000
+Other reselect overhead:    0.00000
+Read disconnect afterread:  0.00000
+Read disconnect afterwrite: 0.00000
+Write disconnect overhead:  0.00000
+Extra write disconnect:     0
+Extradisc command overhead: 0.00000
+Extradisc disconnect overhead: 0.00000
+Extradisc inter-disconnect delay: 0.00000
+Extradisc 2nd disconnect overhead: 0.00000
+Extradisc seek delta:       0.00000
+Minimum seek delay:         0.0
+Number of bands:            8
+Band #1
+First cylinder number:      0
+Last cylinder number:       993
+Blocks per track:           120
+Offset of first block:      0
+Empty space at zone front:  1320
+Skew for track switch:      17
+Skew for cylinder switch:   34
+Number of spares:           224
+Number of slips:            0
+Number of defects:          0
+Band #2
+First cylinder number:      994
+Last cylinder number:       1134
+Blocks per track:           116
+Offset of first block:      48
+Empty space at zone front:  0
+Skew for track switch:      16
+Skew for cylinder switch:   33
+Number of spares:           35
+Number of slips:            0
+Number of defects:          0
+Band #3
+First cylinder number:      1135
+Last cylinder number:       1310
+Blocks per track:           112
+Offset of first block:      23
+Empty space at zone front:  0
+Skew for track switch:      16
+Skew for cylinder switch:   32
+Number of spares:           28
+Number of slips:            0
+Number of defects:          0
+Band #4
+First cylinder number:      1311
+Last cylinder number:       1625
+Blocks per track:           104
+Offset of first block:      47
+Empty space at zone front:  0
+Skew for track switch:      15
+Skew for cylinder switch:   30
+Number of spares:           49
+Number of slips:            0
+Number of defects:          0
+Band #5
+First cylinder number:      1626
+Last cylinder number:       1966
+Blocks per track:           96
+Offset of first block:      48
+Empty space at zone front:  0
+Skew for track switch:      14
+Skew for cylinder switch:   27
+Number of spares:           49
+Number of slips:            0
+Number of defects:          0
+Band #6
+First cylinder number:      1967
+Last cylinder number:       2255
+Blocks per track:           88
+Offset of first block:      72
+Empty space at zone front:  0
+Skew for track switch:      13
+Skew for cylinder switch:   25
+Number of spares:           35
+Number of slips:            0
+Number of defects:          0
+Band #7
+First cylinder number:      2256
+Last cylinder number:       2608
+Blocks per track:           80
+Offset of first block:      48
+Empty space at zone front:  0
+Skew for track switch:      12
+Skew for cylinder switch:   23
+Number of spares:           35
+Number of slips:            0
+Number of defects:          0
+Band #8
+First cylinder number:      2609
+Last cylinder number:       2981
+Blocks per track:           72
+Offset of first block:      64
+Empty space at zone front:  0
+Skew for track switch:      11
+Skew for cylinder switch:   21
+Number of spares:           35
+Number of slips:            0
+Number of defects:          0
+
+Disk brand name: DEC_RZ26
+Access time (in msecs):    -2.0
+Seek time (in msecs):      -5.0
+Single cylinder seek time:  0.2
+Average seek time:          seekDECRZ26
+Full strobe seek time:      2.30
+Add. write settling delay:  -0.483
+HPL seek equation values:   300 3.7500 0.3300 7.6900 0.0059 -1
+First 10 seek times:        2.63 3.42 3.55 3.72 4.01 4.39 4.26 4.39 4.56 4.73
+Head switch time:           0.865
+Rotation speed (in rpms):   5400
+Percent error in rpms:      0.0
+Number of data surfaces:    14
+Number of cylinders:        2599
+Blocks per disk:            2050860
+Sparing scheme used:        3
+Per-request overhead time:  0.0
+Time scale for overheads:   1.0
+Bulk sector transfer time:  0.0
+Hold bus entire read xfer:  1
+Hold bus entire write xfer: 1
+Allow almost read hits:     0
+Allow sneaky full read hits: 0
+Allow sneaky partial read hits: 0
+Allow sneaky intermediate read hits: 0
+Allow read hits on write data: 1
+Allow write prebuffering:   0
+Preseeking level:           0
+Never disconnect:           1
+Print stats for disk:       1
+Avg sectors per cylinder:   1024
+Max queue length at disk:   1
+Scheduling policy:          1
+Cylinder mapping strategy:  0
+Write initiation delay:     0.0
+Read initiation delay:      0.0
+Sequential stream scheme:   0
+Maximum concat size:        0
+Overlapping request scheme: 0
+Sequential stream diff maximum: 0
+Scheduling timeout scheme:  0
+Timeout time/weight:        0
+Timeout scheduling:         0
+Scheduling priority scheme: 0
+Priority scheduling:        0
+Number of buffer segments:  10
+Maximum number of write segments:  1
+Segment size (in blks):     57
+Use separate write segment: 1
+Low (write) water mark:     0.0
+High (read) water mark:     0.0
+Set watermark by reqsize:   1
+Calc sector by sector:      1
+Enable caching in buffer:   1
+Buffer continuous read:     1
+Minimum read-ahead (blks):  0
+Maximum read-ahead (blks):  57
+Read-ahead over requested:  1
+Read-ahead on idle hit:     1
+Read any free blocks:       0
+Fast write level:           0
+Immediate buffer read:      1
+Immediate buffer write:     0
+Combine seq writes:         1
+Stop prefetch in sector:    1
+Disconnect write if seek:   0
+Write hit stop prefetch:    1
+Read directly to buffer:    1
+Immed transfer partial hit: 1
+Read hit over. after read:  1.229
+Read hit over. after write: 1.143
+Read miss over. after read: 1.489
+Read miss over. after write: 1.489
+Write over. after read:     2.167
+Write over. after write:    1.942
+Read completion overhead:   0.0
+Write completion overhead:  0.113
+Data preparation overhead:  0.0
+First reselect overhead:    0.0
+Other reselect overhead:    0.0
+Read disconnect afterread:  0.0
+Read disconnect afterwrite: 0.0
+Write disconnect overhead:  0.0
+Extra write disconnect:     0
+Extradisc command overhead: 0.00000
+Extradisc disconnect overhead: 0.00000
+Extradisc inter-disconnect delay: 0.00000
+Extradisc 2nd disconnect overhead: 0.00000
+Extradisc seek delta:       0.00000
+Minimum seek delay:         0.0
+Number of bands:            1
+Band #1
+First cylinder number:      0
+Last cylinder number:       2598
+Blocks per track:           58
+Offset of first block:      0
+Empty space at zone front:  23142
+Skew for track switch:      7
+Skew for cylinder switch:   25
+Number of spares:           1
+Number of slips:            0
+Number of defects:          0
+
+Disk brand name: Seagate_ST41601N
+Access time (in msecs):    -2.0
+Seek time (in msecs):      -5.0
+Single cylinder seek time:  0.2
+Average seek time:          seekSeagate
+Full strobe seek time:      2.30
+Add. write settling delay:  0.0
+HPL seek equation values:   300 3.7500 0.3300 7.6900 0.0059 -1
+First 10 seek times:        2.63 3.42 3.55 3.72 4.01 4.39 4.26 4.39 4.56 4.73
+Head switch time:           0.0
+Rotation speed (in rpms):   5400
+Percent error in rpms:      0.0
+Number of data surfaces:    17
+Number of cylinders:        2098
+Blocks per disk:            2676846
+Sparing scheme used:        2
+Per-request overhead time:  0.0
+Time scale for overheads:   1.0
+Bulk sector transfer time:  0.0
+Hold bus entire read xfer:  0
+Hold bus entire write xfer: 0
+Allow almost read hits:     0
+Allow sneaky full read hits: 0
+Allow sneaky partial read hits: 0
+Allow sneaky intermediate read hits: 0
+Allow read hits on write data: 1
+Allow write prebuffering:   0
+Preseeking level:           0
+Never disconnect:           0
+Print stats for disk:       1
+Avg sectors per cylinder:   1024
+Max queue length at disk:   1
+Scheduling policy:          1
+Cylinder mapping strategy:  0
+Write initiation delay:     0.0
+Read initiation delay:      0.0
+Sequential stream scheme:   0
+Maximum concat size:        0
+Overlapping request scheme: 0
+Sequential stream diff maximum: 0
+Scheduling timeout scheme:  0
+Timeout time/weight:        0
+Timeout scheduling:         0
+Scheduling priority scheme: 0
+Priority scheduling:        0
+Number of buffer segments:  1
+Maximum number of write segments:  1
+Segment size (in blks):     384
+Use separate write segment: 0
+Low (write) water mark:     0.0
+High (read) water mark:     0.0
+Set watermark by reqsize:   1
+Calc sector by sector:      1
+Enable caching in buffer:   1
+Buffer continuous read:     3
+Minimum read-ahead (blks):  0
+Maximum read-ahead (blks):  384
+Read-ahead over requested:  -1
+Read-ahead on idle hit:     1
+Read any free blocks:       0
+Fast write level:           0
+Immediate buffer read:      0
+Immediate buffer write:     0
+Combine seq writes:         1
+Stop prefetch in sector:    1
+Disconnect write if seek:   0
+Write hit stop prefetch:    1
+Read directly to buffer:    1
+Immed transfer partial hit: 1
+Read hit over. after read:  0.896
+Read hit over. after write: 0.506
+Read miss over. after read: 1.433
+Read miss over. after write: 1.433
+Write over. after read:     2.059
+Write over. after write:    1.404
+Read completion overhead:   0.232
+Write completion overhead:  0.0
+Data preparation overhead:  0.0
+First reselect overhead:    0.0
+Other reselect overhead:    0.0
+Read disconnect afterread:  0.0
+Read disconnect afterwrite: 0.0
+Write disconnect overhead:  0.0
+Extra write disconnect:     0
+Extradisc command overhead: 0.00000
+Extradisc disconnect overhead: 0.00000
+Extradisc inter-disconnect delay: 0.00000
+Extradisc 2nd disconnect overhead: 0.00000
+Extradisc seek delta:       0.00000
+Minimum seek delay:         0.0
+Number of bands:            14
+Band #1
+First cylinder number:      0
+Last cylinder number:       625
+Blocks per track:           85
+Offset of first block:      0
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   16
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+Band #2
+First cylinder number:      626
+Last cylinder number:       700
+Blocks per track:           83
+Offset of first block:      46
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   16
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+Band #3
+First cylinder number:      701
+Last cylinder number:       800
+Blocks per track:           82
+Offset of first block:      77
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   15
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+Band #4
+First cylinder number:      801
+Last cylinder number:       925
+Blocks per track:           79
+Offset of first block:      23
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   15
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+Band #5
+First cylinder number:      926
+Last cylinder number:       1050
+Blocks per track:           78
+Offset of first block:      54
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   14
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+Band #6
+First cylinder number:      1051
+Last cylinder number:       1175
+Blocks per track:           76
+Offset of first block:      36
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   14
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+Band #7
+First cylinder number:      1176
+Last cylinder number:       1300
+Blocks per track:           73
+Offset of first block:      20
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   13
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+Band #8
+First cylinder number:      1301
+Last cylinder number:       1400
+Blocks per track:           72
+Offset of first block:      28
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   13
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+Band #9
+First cylinder number:      1401
+Last cylinder number:       1500
+Blocks per track:           69
+Offset of first block:      64
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   12
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+Band #10
+First cylinder number:      1501
+Last cylinder number:       1600
+Blocks per track:           68
+Offset of first block:      48
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   12
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+Band #11
+First cylinder number:      1601
+Last cylinder number:       1800
+Blocks per track:           65
+Offset of first block:      28
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   11
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+Band #12
+First cylinder number:      1801
+Last cylinder number:       1900
+Blocks per track:           63
+Offset of first block:      49
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   11
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+Band #13
+First cylinder number:      1901
+Last cylinder number:       2000
+Blocks per track:           62
+Offset of first block:      2
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   10
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+Band #14
+First cylinder number:      2001
+Last cylinder number:       2097
+Blocks per track:           61
+Offset of first block:      48
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   10
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+
+Disk brand name: HP_C2490A
+Access time (in msecs):    -2.0
+Seek time (in msecs):      -5.0
+Single cylinder seek time:  0.2
+Average seek time:          seekHPC2490
+Full strobe seek time:      2.30
+Add. write settling delay:  -0.642
+HPL seek equation values:   300 3.7500 0.3300 7.6900 0.0059 -1
+First 10 seek times:        2.63 3.42 3.55 3.72 4.01 4.39 4.26 4.39 4.56 4.73
+Head switch time:           0.992
+Rotation speed (in rpms):   6400
+Percent error in rpms:      0.0
+Number of data surfaces:    18
+Number of cylinders:        2629
+Blocks per disk:            4165272
+Sparing scheme used:        1
+Per-request overhead time:  0.0
+Time scale for overheads:   1.0
+Bulk sector transfer time:  0.0
+Hold bus entire read xfer:  1
+Hold bus entire write xfer: 0
+Allow almost read hits:     0
+Allow sneaky full read hits: 0
+Allow sneaky partial read hits: 0
+Allow sneaky intermediate read hits: 0
+Allow read hits on write data: 1
+Allow write prebuffering:   0
+Preseeking level:           0
+Never disconnect:           0
+Print stats for disk:       1
+Avg sectors per cylinder:   1024
+Max queue length at disk:   1
+Scheduling policy:          1
+Cylinder mapping strategy:  0
+Write initiation delay:     0.0
+Read initiation delay:      0.0
+Sequential stream scheme:   0
+Maximum concat size:        0
+Overlapping request scheme: 0
+Sequential stream diff maximum: 0
+Scheduling timeout scheme:  0
+Timeout time/weight:        0
+Timeout scheduling:         0
+Scheduling priority scheme: 0
+Priority scheduling:        0
+Number of buffer segments:  1
+Maximum number of write segments:  1
+Segment size (in blks):     256
+Use separate write segment: 0
+Low (write) water mark:     0.0
+High (read) water mark:     0.0
+Set watermark by reqsize:   1
+Calc sector by sector:      1
+Enable caching in buffer:   2
+Buffer continuous read:     3
+Minimum read-ahead (blks):  0
+Maximum read-ahead (blks):  128
+Read-ahead over requested:  1
+Read-ahead on idle hit:     1
+Read any free blocks:       0
+Fast write level:           0
+Immediate buffer read:      0
+Immediate buffer write:     0
+Combine seq writes:         1
+Stop prefetch in sector:    1
+Disconnect write if seek:   0
+Write hit stop prefetch:    1
+Read directly to buffer:    1
+Immed transfer partial hit: 1
+Read hit over. after read:  1.41900
+Read hit over. after write: 0.0
+Read miss over. after read: 3.61600
+Read miss over. after write: 2.27500
+Write over. after read:     3.28300
+Write over. after write:    0.82391
+Read completion overhead:   0.08100
+Write completion overhead:  0.0
+Data preparation overhead:  0.0
+First reselect overhead:    0.0
+Other reselect overhead:    0.0
+Read disconnect afterread:  0.0
+Read disconnect afterwrite: 0.0
+Write disconnect overhead:  0.0
+Extra write disconnect:     0
+Extradisc command overhead: 0.00000
+Extradisc disconnect overhead: 0.00000
+Extradisc inter-disconnect delay: 0.00000
+Extradisc 2nd disconnect overhead: 0.00000
+Extradisc seek delta:       0.00000
+Minimum seek delay:         0.0
+Number of bands:            11
+Band #1
+First cylinder number:      0
+Last cylinder number:       186
+Blocks per track:           108
+Offset of first block:      0
+Empty space at zone front:  2376
+Skew for track switch:      18
+Skew for cylinder switch:   36
+Number of spares:           198
+Number of slips:            0
+Number of defects:          0
+Band #2
+First cylinder number:      187
+Last cylinder number:       501
+Blocks per track:           104
+Offset of first block:      60
+Empty space at zone front:  0
+Skew for track switch:      17
+Skew for cylinder switch:   35
+Number of spares:           90
+Number of slips:            0
+Number of defects:          0
+Band #3
+First cylinder number:      502
+Last cylinder number:       785
+Blocks per track:           100
+Offset of first block:      10
+Empty space at zone front:  0
+Skew for track switch:      16
+Skew for cylinder switch:   33
+Number of spares:           72
+Number of slips:            0
+Number of defects:          0
+Band #4
+First cylinder number:      786
+Last cylinder number:       1097
+Blocks per track:           96
+Offset of first block:      0
+Empty space at zone front:  0
+Skew for track switch:      16
+Skew for cylinder switch:   32
+Number of spares:           72
+Number of slips:            0
+Number of defects:          0
+Band #5
+First cylinder number:      1098
+Last cylinder number:       1356
+Blocks per track:           92
+Offset of first block:      32
+Empty space at zone front:  0
+Skew for track switch:      15
+Skew for cylinder switch:   31
+Number of spares:           54
+Number of slips:            0
+Number of defects:          0
+Band #6
+First cylinder number:      1357
+Last cylinder number:       1609
+Blocks per track:           88
+Offset of first block:      73
+Empty space at zone front:  0
+Skew for track switch:      15
+Skew for cylinder switch:   30
+Number of spares:           54
+Number of slips:            0
+Number of defects:          0
+Band #7
+First cylinder number:      1610
+Last cylinder number:       1850
+Blocks per track:           84
+Offset of first block:      28
+Empty space at zone front:  0
+Skew for track switch:      14
+Skew for cylinder switch:   28
+Number of spares:           90
+Number of slips:            0
+Number of defects:          0
+Band #8
+First cylinder number:      1851
+Last cylinder number:       2070
+Blocks per track:           80
+Offset of first block:      8
+Empty space at zone front:  0
+Skew for track switch:      13
+Skew for cylinder switch:   27
+Number of spares:           36
+Number of slips:            0
+Number of defects:          0
+Band #9
+First cylinder number:      2071
+Last cylinder number:       2277
+Blocks per track:           76
+Offset of first block:      57
+Empty space at zone front:  0
+Skew for track switch:      13
+Skew for cylinder switch:   26
+Number of spares:           54
+Number of slips:            0
+Number of defects:          0
+Band #10
+First cylinder number:      2278
+Last cylinder number:       2497
+Blocks per track:           72
+Offset of first block:      22
+Empty space at zone front:  0
+Skew for track switch:      12
+Skew for cylinder switch:   25
+Number of spares:           36
+Number of slips:            0
+Number of defects:          0
+Band #11
+First cylinder number:      2498
+Last cylinder number:       2629
+Blocks per track:           68
+Offset of first block:      62
+Empty space at zone front:  0
+Skew for track switch:      12
+Skew for cylinder switch:   23
+Number of spares:           72
+Number of slips:            0
+Number of defects:          0
+
+Disk brand name: HP_C2247A
+Access time (in msecs):    -2.0
+Seek time (in msecs):      -4.0
+Single cylinder seek time:  0.2
+Average seek time:          1.10
+Full strobe seek time:      2.30
+Add. write settling delay:  0.65
+HPL seek equation values:   300 3.8100 0.3300 7.7500 0.0059 -1
+First 10 seek times:        2.89 3.68 3.81 3.98 4.27 4.65 4.52 4.65 4.82 4.99
+Head switch time:           0.890
+Rotation speed (in rpms):   5400
+Percent error in rpms:      0.0
+Number of data surfaces:    13
+Number of cylinders:        2051
+Blocks per disk:            2054864
+Sparing scheme used:        1
+Per-request overhead time:  0.00
+Time scale for overheads:   1.0
+Bulk sector transfer time:  0.0
+Hold bus entire read xfer:  1
+Hold bus entire write xfer: 0
+Allow almost read hits:     0
+Allow sneaky full read hits: 0
+Allow sneaky partial read hits: 0
+Allow sneaky intermediate read hits: 0
+Allow read hits on write data: 1
+Allow write prebuffering:   0
+Preseeking level:           0
+Never disconnect:           0
+Print stats for disk:       1
+Avg sectors per cylinder:   1024
+Max queue length at disk:   1
+Scheduling policy:          1
+Cylinder mapping strategy:  0
+Write initiation delay:     0.0
+Read initiation delay:      0.0
+Sequential stream scheme:   0
+Maximum concat size:        0
+Overlapping request scheme: 0
+Sequential stream diff maximum: 0
+Scheduling timeout scheme:  0
+Timeout time/weight:        0
+Timeout scheduling:         0
+Scheduling priority scheme: 0
+Priority scheduling:        0
+Number of buffer segments:  2
+Maximum number of write segments:  1
+Segment size (in blks):     256
+Use separate write segment: 1
+Low (write) water mark:     0.75
+High (read) water mark:     0.75
+Set watermark by reqsize:   1
+Calc sector by sector:      1
+Enable caching in buffer:   1
+Buffer continuous read:     3
+Minimum read-ahead (blks):  0
+Maximum read-ahead (blks):  128
+Read-ahead over requested:  1
+Read-ahead on idle hit:     1
+Read any free blocks:       0
+Fast write level:           0
+Immediate buffer read:      0
+Immediate buffer write:     0
+Combine seq writes:         1
+Stop prefetch in sector:    1
+Disconnect write if seek:   0
+Write hit stop prefetch:    1
+Read directly to buffer:    1
+Immed transfer partial hit: 1
+Read hit over. after read:  0.95343
+Read hit over. after write: 0.95343
+Read miss over. after read: 0.55821
+Read miss over. after write: 0.55821
+Write over. after read:     0.82391
+Write over. after write:    0.82391
+Read completion overhead:   0.05665
+Write completion overhead:  0.05045
+Data preparation overhead:  0.02519
+First reselect overhead:    0.16249
+Other reselect overhead:    0.12883
+Read disconnect afterread:  0.02266
+Read disconnect afterwrite: 0.04551
+Write disconnect overhead:  0.16565
+Extra write disconnect:     1
+Extradisc command overhead: 0.64244
+Extradisc disconnect overhead: 0.04551
+Extradisc inter-disconnect delay: 0.42885
+Extradisc 2nd disconnect overhead: 0.13437
+Extradisc seek delta:       0.25000
+Minimum seek delay:         0.6
+Number of bands:            8
+Band #1
+First cylinder number:      0
+Last cylinder number:       558
+Blocks per track:           96
+Offset of first block:      0
+Empty space at zone front:  1632
+Skew for track switch:      14
+Skew for cylinder switch:   32
+Number of spares:           325
+Number of slips:            0
+Number of defects:          0
+Band #2
+First cylinder number:      559
+Last cylinder number:       760
+Blocks per track:           92
+Offset of first block:      14
+Empty space at zone front:  0
+Skew for track switch:      13
+Skew for cylinder switch:   30
+Number of spares:           130
+Number of slips:            0
+Number of defects:          0
+Band #3
+First cylinder number:      761
+Last cylinder number:       901
+Blocks per track:           88
+Offset of first block:      73
+Empty space at zone front:  0
+Skew for track switch:      13
+Skew for cylinder switch:   29
+Number of spares:           65
+Number of slips:            0
+Number of defects:          0
+Band #4
+First cylinder number:      902
+Last cylinder number:       1051
+Blocks per track:           84
+Offset of first block:      80
+Empty space at zone front:  0
+Skew for track switch:      12
+Skew for cylinder switch:   28
+Number of spares:           78
+Number of slips:            0
+Number of defects:          0
+Band #5
+First cylinder number:      1052
+Last cylinder number:       1193
+Blocks per track:           80
+Offset of first block:      52
+Empty space at zone front:  0
+Skew for track switch:      12
+Skew for cylinder switch:   27
+Number of spares:           52
+Number of slips:            0
+Number of defects:          0
+Band #6
+First cylinder number:      1194
+Last cylinder number:       1519
+Blocks per track:           72
+Offset of first block:      0
+Empty space at zone front:  0
+Skew for track switch:      11
+Skew for cylinder switch:   24
+Number of spares:           104
+Number of slips:            0
+Number of defects:          0
+Band #7
+First cylinder number:      1520
+Last cylinder number:       1793
+Blocks per track:           64
+Offset of first block:      32
+Empty space at zone front:  0
+Skew for track switch:      10
+Skew for cylinder switch:   22
+Number of spares:           78
+Number of slips:            0
+Number of defects:          0
+Band #8
+First cylinder number:      1794
+Last cylinder number:       2050
+Blocks per track:           56
+Offset of first block:      30
+Empty space at zone front:  0
+Skew for track switch:      9
+Skew for cylinder switch:   19
+Number of spares:           65
+Number of slips:            0
+Number of defects:          0
+
+Disk brand name: HP_C2249A
+Access time (in msecs):    -2.0
+Seek time (in msecs):      -4.0
+Single cylinder seek time:  0.2
+Average seek time:          1.10
+Full strobe seek time:      2.30
+Add. write settling delay:  0.65
+HPL seek equation values:   300 3.8100 0.3300 7.7500 0.0059 -1
+First 10 seek times:        2.89 3.68 3.81 3.98 4.27 4.65 4.52 4.65 4.82 4.99
+Head switch time:           0.890
+Rotation speed (in rpms):   5400
+Percent error in rpms:      0.0
+Number of data surfaces:    17
+Number of cylinders:        2051
+Blocks per disk:            2687632
+Sparing scheme used:        1
+Per-request overhead time:  0.00
+Time scale for overheads:   1.0
+Bulk sector transfer time:  0.0
+Hold bus entire read xfer:  1
+Hold bus entire write xfer: 0
+Allow almost read hits:     0
+Allow sneaky full read hits: 0
+Allow sneaky partial read hits: 0
+Allow sneaky intermediate read hits: 0
+Allow read hits on write data: 1
+Allow write prebuffering:   0
+Preseeking level:           0
+Never disconnect:           0
+Print stats for disk:       1
+Avg sectors per cylinder:   1024
+Max queue length at disk:   1
+Scheduling policy:          1
+Cylinder mapping strategy:  0
+Write initiation delay:     0.0
+Read initiation delay:      0.0
+Sequential stream scheme:   0
+Maximum concat size:        0
+Overlapping request scheme: 0
+Sequential stream diff maximum:  0
+Scheduling timeout scheme:  0
+Timeout time/weight:        0
+Timeout scheduling:         0
+Scheduling priority scheme: 0
+Priority scheduling:        0
+Number of buffer segments:  2
+Maximum number of write segments:  1
+Segment size (in blks):     256
+Use separate write segment: 1
+Low (write) water mark:     0.75
+High (read) water mark:     0.75
+Set watermark by reqsize:   1
+Calc sector by sector:      1
+Enable caching in buffer:   1
+Buffer continuous read:     3
+Minimum read-ahead (blks):  0
+Maximum read-ahead (blks):  128
+Read-ahead over requested:  1
+Read-ahead on idle hit:     1
+Read any free blocks:       0
+Fast write level:           0
+Immediate buffer read:      0
+Immediate buffer write:     0
+Combine seq writes:         1
+Stop prefetch in sector:    1
+Disconnect write if seek:   0
+Write hit stop prefetch:    1
+Read directly to buffer:    1
+Immed transfer partial hit: 1
+Read hit over. after read:  0.95343
+Read hit over. after write: 0.95343
+Read miss over. after read: 0.55821
+Read miss over. after write: 0.55821
+Write over. after read:     0.82391
+Write over. after write:    0.82391
+Read completion overhead:   0.05665
+Write completion overhead:  0.05045
+Data preparation overhead:  0.02519
+First reselect overhead:    0.16249
+Other reselect overhead:    0.12883
+Read disconnect afterread:  0.02266
+Read disconnect afterwrite: 0.04551
+Write disconnect overhead:  0.16565
+Extra write disconnect:     1
+Extradisc command overhead: 0.64244
+Extradisc disconnect overhead: 0.04551
+Extradisc inter-disconnect delay: 0.42885
+Extradisc 2nd disconnect overhead: 0.13437
+Extradisc seek delta:       0.25000
+Minimum seek delay:         0.6
+Number of bands:            8
+Band #1
+First cylinder number:      0
+Last cylinder number:       558
+Blocks per track:           96
+Offset of first block:      0
+Empty space at zone front:  1632
+Skew for track switch:      14
+Skew for cylinder switch:   32
+Number of spares:           425
+Number of slips:            0
+Number of defects:          0
+Band #2
+First cylinder number:      559
+Last cylinder number:       760
+Blocks per track:           92
+Offset of first block:      14
+Empty space at zone front:  0
+Skew for track switch:      13
+Skew for cylinder switch:   30
+Number of spares:           170
+Number of slips:            0
+Number of defects:          0
+Band #3
+First cylinder number:      761
+Last cylinder number:       901
+Blocks per track:           88
+Offset of first block:      73
+Empty space at zone front:  0
+Skew for track switch:      13
+Skew for cylinder switch:   29
+Number of spares:           85
+Number of slips:            0
+Number of defects:          0
+Band #4
+First cylinder number:      902
+Last cylinder number:       1051
+Blocks per track:           84
+Offset of first block:      80
+Empty space at zone front:  0
+Skew for track switch:      12
+Skew for cylinder switch:   28
+Number of spares:           102
+Number of slips:            0
+Number of defects:          0
+Band #5
+First cylinder number:      1052
+Last cylinder number:       1193
+Blocks per track:           80
+Offset of first block:      52
+Empty space at zone front:  0
+Skew for track switch:      12
+Skew for cylinder switch:   27
+Number of spares:           68
+Number of slips:            0
+Number of defects:          0
+Band #6
+First cylinder number:      1194
+Last cylinder number:       1519
+Blocks per track:           72
+Offset of first block:      0
+Empty space at zone front:  0
+Skew for track switch:      11
+Skew for cylinder switch:   24
+Number of spares:           136
+Number of slips:            0
+Number of defects:          0
+Band #7
+First cylinder number:      1520
+Last cylinder number:       1793
+Blocks per track:           64
+Offset of first block:      32
+Empty space at zone front:  0
+Skew for track switch:      10
+Skew for cylinder switch:   22
+Number of spares:           102
+Number of slips:            0
+Number of defects:          0
+Band #8
+First cylinder number:      1794
+Last cylinder number:       2050
+Blocks per track:           56
+Offset of first block:      30
+Empty space at zone front:  0
+Skew for track switch:      9
+Skew for cylinder switch:   19
+Number of spares:           85
+Number of slips:            0
+Number of defects:          0
+
+
+Disk brand name: HP_C3323A_validate
+Access time (in msecs):    -2.0
+Seek time (in msecs):      -5.0
+Single cylinder seek time:  0.2
+Average seek time:          seekHPC3323
+Full strobe seek time:      2.30
+Add. write settling delay:  0.070
+HPL seek equation values:   300 3.7500 0.3300 7.6900 0.0059 -1
+First 10 seek times:        2.63 3.42 3.55 3.72 4.01 4.39 4.26 4.39 4.56 4.73
+Head switch time:           0.650
+Rotation speed (in rpms):   5396
+Percent error in rpms:      0.0
+Number of data surfaces:    7
+Number of cylinders:        2982
+Blocks per disk:            2056008
+Sparing scheme used:        1
+Per-request overhead time:  0.0
+Time scale for overheads:   1.0
+Bulk sector transfer time:  0.0
+Hold bus entire read xfer:  1
+Hold bus entire write xfer: 0
+Allow almost read hits:     0
+Allow sneaky full read hits: 0
+Allow sneaky partial read hits: 0
+Allow sneaky intermediate read hits: 0
+Allow read hits on write data: 1
+Allow write prebuffering:   0
+Preseeking level:           0
+Never disconnect:           0
+Print stats for disk:       1
+Avg sectors per cylinder:   1024
+Max queue length at disk:   1
+Scheduling policy:          1
+Cylinder mapping strategy:  0
+Write initiation delay:     0.0
+Read initiation delay:      0.0
+Sequential stream scheme:   0
+Maximum concat size:        0
+Overlapping request scheme: 0
+Sequential stream diff maximum: 0
+Scheduling timeout scheme:  0
+Timeout time/weight:        0
+Timeout scheduling:         0
+Scheduling priority scheme: 0
+Priority scheduling:        0
+Number of buffer segments:  2
+Maximum number of write segments:  1
+Segment size (in blks):     512
+Use separate write segment: 1
+Low (write) water mark:     1.0
+High (read) water mark:     1.0
+Set watermark by reqsize:   1
+Calc sector by sector:      1
+Enable caching in buffer:   1
+Buffer continuous read:     3
+Minimum read-ahead (blks):  0
+Maximum read-ahead (blks):  256
+Read-ahead over requested:  0
+Read-ahead on idle hit:     1
+Read any free blocks:       0
+Fast write level:           0
+Immediate buffer read:      0
+Immediate buffer write:     0
+Combine seq writes:         1
+Stop prefetch in sector:    1
+Disconnect write if seek:   0
+Write hit stop prefetch:    1
+Read directly to buffer:    1
+Immed transfer partial hit: 1
+Read hit over. after read:  0.34800
+Read hit over. after write: 1.38700
+Read miss over. after read: 2.50200
+Read miss over. after write: 2.50200
+Write over. after read:     3.29000
+Write over. after write:    2.92000
+Read completion overhead:   0.24100
+Write completion overhead:  0.00000
+Data preparation overhead:  0.00000
+First reselect overhead:    0.00000
+Other reselect overhead:    0.00000
+Read disconnect afterread:  0.00000
+Read disconnect afterwrite: 0.00000
+Write disconnect overhead:  0.00000
+Extra write disconnect:     0
+Extradisc command overhead: 0.00000
+Extradisc disconnect overhead: 0.00000
+Extradisc inter-disconnect delay: 0.00000
+Extradisc 2nd disconnect overhead: 0.00000
+Extradisc seek delta:       0.00000
+Minimum seek delay:         0.0
+Number of bands:            8
+Band #1
+First cylinder number:      0
+Last cylinder number:       993
+Blocks per track:           120
+Offset of first block:      0
+Empty space at zone front:  1320
+Skew for track switch:      17
+Skew for cylinder switch:   34
+Number of spares:           224
+Number of slips:            0
+Number of defects:          0
+Band #2
+First cylinder number:      994
+Last cylinder number:       1134
+Blocks per track:           116
+Offset of first block:      48
+Empty space at zone front:  0
+Skew for track switch:      16
+Skew for cylinder switch:   33
+Number of spares:           35
+Number of slips:            0
+Number of defects:          0
+Band #3
+First cylinder number:      1135
+Last cylinder number:       1310
+Blocks per track:           112
+Offset of first block:      23
+Empty space at zone front:  0
+Skew for track switch:      16
+Skew for cylinder switch:   32
+Number of spares:           28
+Number of slips:            0
+Number of defects:          0
+Band #4
+First cylinder number:      1311
+Last cylinder number:       1625
+Blocks per track:           104
+Offset of first block:      47
+Empty space at zone front:  0
+Skew for track switch:      15
+Skew for cylinder switch:   30
+Number of spares:           49
+Number of slips:            0
+Number of defects:          0
+Band #5
+First cylinder number:      1626
+Last cylinder number:       1966
+Blocks per track:           96
+Offset of first block:      48
+Empty space at zone front:  0
+Skew for track switch:      14
+Skew for cylinder switch:   27
+Number of spares:           49
+Number of slips:            0
+Number of defects:          0
+Band #6
+First cylinder number:      1967
+Last cylinder number:       2255
+Blocks per track:           88
+Offset of first block:      72
+Empty space at zone front:  0
+Skew for track switch:      13
+Skew for cylinder switch:   25
+Number of spares:           35
+Number of slips:            0
+Number of defects:          0
+Band #7
+First cylinder number:      2256
+Last cylinder number:       2608
+Blocks per track:           80
+Offset of first block:      48
+Empty space at zone front:  0
+Skew for track switch:      12
+Skew for cylinder switch:   23
+Number of spares:           35
+Number of slips:            0
+Number of defects:          0
+Band #8
+First cylinder number:      2609
+Last cylinder number:       2981
+Blocks per track:           72
+Offset of first block:      64
+Empty space at zone front:  0
+Skew for track switch:      11
+Skew for cylinder switch:   21
+Number of spares:           35
+Number of slips:            0
+Number of defects:          0
+
+Disk brand name: DEC_RZ26_validate
+Access time (in msecs):    -2.0
+Seek time (in msecs):      -5.0
+Single cylinder seek time:  0.2
+Average seek time:          seekDECRZ26
+Full strobe seek time:      2.30
+Add. write settling delay:  -0.483
+HPL seek equation values:   300 3.7500 0.3300 7.6900 0.0059 -1
+First 10 seek times:        2.63 3.42 3.55 3.72 4.01 4.39 4.26 4.39 4.56 4.73
+Head switch time:           0.865
+Rotation speed (in rpms):   5360
+Percent error in rpms:      0.0
+Number of data surfaces:    14
+Number of cylinders:        2599
+Blocks per disk:            2050860
+Sparing scheme used:        3
+Per-request overhead time:  0.0
+Time scale for overheads:   1.0
+Bulk sector transfer time:  0.0
+Hold bus entire read xfer:  1
+Hold bus entire write xfer: 1
+Allow almost read hits:     0
+Allow sneaky full read hits: 0
+Allow sneaky partial read hits: 0
+Allow sneaky intermediate read hits: 0
+Allow read hits on write data: 1
+Allow write prebuffering:   0
+Preseeking level:           0
+Never disconnect:           1
+Print stats for disk:       1
+Avg sectors per cylinder:   1024
+Max queue length at disk:   1
+Scheduling policy:          1
+Cylinder mapping strategy:  0
+Write initiation delay:     0.0
+Read initiation delay:      0.0
+Sequential stream scheme:   0
+Maximum concat size:        0
+Overlapping request scheme: 0
+Sequential stream diff maximum: 0
+Scheduling timeout scheme:  0
+Timeout time/weight:        0
+Timeout scheduling:         0
+Scheduling priority scheme: 0
+Priority scheduling:        0
+Number of buffer segments:  10
+Maximum number of write segments:  1
+Segment size (in blks):     57
+Use separate write segment: 1
+Low (write) water mark:     0.0
+High (read) water mark:     0.0
+Set watermark by reqsize:   1
+Calc sector by sector:      1
+Enable caching in buffer:   1
+Buffer continuous read:     1
+Minimum read-ahead (blks):  0
+Maximum read-ahead (blks):  57
+Read-ahead over requested:  1
+Read-ahead on idle hit:     1
+Read any free blocks:       0
+Fast write level:           0
+Immediate buffer read:      1
+Immediate buffer write:     0
+Combine seq writes:         1
+Stop prefetch in sector:    1
+Disconnect write if seek:   0
+Write hit stop prefetch:    1
+Read directly to buffer:    1
+Immed transfer partial hit: 1
+Read hit over. after read:  1.229
+Read hit over. after write: 1.143
+Read miss over. after read: 1.489
+Read miss over. after write: 1.489
+Write over. after read:     2.167
+Write over. after write:    1.942
+Read completion overhead:   0.0
+Write completion overhead:  0.113
+Data preparation overhead:  0.0
+First reselect overhead:    0.0
+Other reselect overhead:    0.0
+Read disconnect afterread:  0.0
+Read disconnect afterwrite: 0.0
+Write disconnect overhead:  0.0
+Extra write disconnect:     0
+Extradisc command overhead: 0.00000
+Extradisc disconnect overhead: 0.00000
+Extradisc inter-disconnect delay: 0.00000
+Extradisc 2nd disconnect overhead: 0.00000
+Extradisc seek delta:       0.00000
+Minimum seek delay:         0.0
+Number of bands:            1
+Band #1
+First cylinder number:      0
+Last cylinder number:       2598
+Blocks per track:           58
+Offset of first block:      0
+Empty space at zone front:  23142
+Skew for track switch:      7
+Skew for cylinder switch:   25
+Number of spares:           1
+Number of slips:            0
+Number of defects:          0
+
+Disk brand name: Seagate_ST41601N_validate
+Access time (in msecs):    -2.0
+Seek time (in msecs):      -5.0
+Single cylinder seek time:  0.2
+Average seek time:          seekSeagate
+Full strobe seek time:      2.30
+Add. write settling delay:  0.0
+HPL seek equation values:   300 3.7500 0.3300 7.6900 0.0059 -1
+First 10 seek times:        2.63 3.42 3.55 3.72 4.01 4.39 4.26 4.39 4.56 4.73
+Head switch time:           0.0
+Rotation speed (in rpms):   5397
+Percent error in rpms:      0.0
+Number of data surfaces:    17
+Number of cylinders:        2098
+Blocks per disk:            2676846
+Sparing scheme used:        2
+Per-request overhead time:  0.0
+Time scale for overheads:   1.0
+Bulk sector transfer time:  0.0
+Hold bus entire read xfer:  0
+Hold bus entire write xfer: 0
+Allow almost read hits:     0
+Allow sneaky full read hits: 0
+Allow sneaky partial read hits: 0
+Allow sneaky intermediate read hits: 0
+Allow read hits on write data: 1
+Allow write prebuffering:   0
+Preseeking level:           0
+Never disconnect:           0
+Print stats for disk:       1
+Avg sectors per cylinder:   1024
+Max queue length at disk:   1
+Scheduling policy:          1
+Cylinder mapping strategy:  0
+Write initiation delay:     0.0
+Read initiation delay:      0.0
+Sequential stream scheme:   0
+Maximum concat size:        0
+Overlapping request scheme: 0
+Sequential stream diff maximum: 0
+Scheduling timeout scheme:  0
+Timeout time/weight:        0
+Timeout scheduling:         0
+Scheduling priority scheme: 0
+Priority scheduling:        0
+Number of buffer segments:  1
+Maximum number of write segments:  1
+Segment size (in blks):     384
+Use separate write segment: 0
+Low (write) water mark:     0.0
+High (read) water mark:     0.0
+Set watermark by reqsize:   1
+Calc sector by sector:      1
+Enable caching in buffer:   1
+Buffer continuous read:     3
+Minimum read-ahead (blks):  0
+Maximum read-ahead (blks):  384
+Read-ahead over requested:  -1
+Read-ahead on idle hit:     1
+Read any free blocks:       0
+Fast write level:           0
+Immediate buffer read:      0
+Immediate buffer write:     0
+Combine seq writes:         1
+Stop prefetch in sector:    1
+Disconnect write if seek:   0
+Write hit stop prefetch:    1
+Read directly to buffer:    1
+Immed transfer partial hit: 1
+Read hit over. after read:  0.896
+Read hit over. after write: 0.506
+Read miss over. after read: 1.433
+Read miss over. after write: 1.433
+Write over. after read:     2.059
+Write over. after write:    1.404
+Read completion overhead:   0.232
+Write completion overhead:  0.0
+Data preparation overhead:  0.0
+First reselect overhead:    0.0
+Other reselect overhead:    0.0
+Read disconnect afterread:  0.0
+Read disconnect afterwrite: 0.0
+Write disconnect overhead:  0.0
+Extra write disconnect:     0
+Extradisc command overhead: 0.00000
+Extradisc disconnect overhead: 0.00000
+Extradisc inter-disconnect delay: 0.00000
+Extradisc 2nd disconnect overhead: 0.00000
+Extradisc seek delta:       0.00000
+Minimum seek delay:         0.0
+Number of bands:            14
+Band #1
+First cylinder number:      0
+Last cylinder number:       625
+Blocks per track:           85
+Offset of first block:      0
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   16
+Number of spares:           6
+Number of slips:            3
+Slip: 351027
+Slip: 572958
+Slip: 780987
+Number of defects:          0
+Band #2
+First cylinder number:      626
+Last cylinder number:       700
+Blocks per track:           83
+Offset of first block:      46
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   16
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+Band #3
+First cylinder number:      701
+Last cylinder number:       800
+Blocks per track:           82
+Offset of first block:      77
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   15
+Number of spares:           6
+Number of slips:            2
+Slip: 127564
+Slip: 130078
+Number of defects:          0
+Band #4
+First cylinder number:      801
+Last cylinder number:       925
+Blocks per track:           79
+Offset of first block:      23
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   15
+Number of spares:           6
+Number of slips:            2
+Slip: 47535
+Slip: 107971
+Number of defects:          0
+Band #5
+First cylinder number:      926
+Last cylinder number:       1050
+Blocks per track:           78
+Offset of first block:      54
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   14
+Number of spares:           6
+Number of slips:            4
+Slip: 55028
+Slip: 83029
+Slip: 101300
+Slip: 120855
+Number of defects:          0
+Band #6
+First cylinder number:      1051
+Last cylinder number:       1175
+Blocks per track:           76
+Offset of first block:      36
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   14
+Number of spares:           6
+Number of slips:            10
+Slip: 75151
+Slip: 83344
+Slip: 84636
+Slip: 85928
+Slip: 87220
+Slip: 88512
+Slip: 89804
+Slip: 91096
+Slip: 92388
+Slip: 116791
+Number of defects:          0
+Band #7
+First cylinder number:      1176
+Last cylinder number:       1300
+Blocks per track:           73
+Offset of first block:      20
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   13
+Number of spares:           6
+Number of slips:            4
+Slip: 61600
+Slip: 105920
+Slip: 112125
+Slip: 119745
+Number of defects:          0
+Band #8
+First cylinder number:      1301
+Last cylinder number:       1400
+Blocks per track:           72
+Offset of first block:      28
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   13
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+Band #9
+First cylinder number:      1401
+Last cylinder number:       1500
+Blocks per track:           69
+Offset of first block:      64
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   12
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+Band #10
+First cylinder number:      1501
+Last cylinder number:       1600
+Blocks per track:           68
+Offset of first block:      48
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   12
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+Band #11
+First cylinder number:      1601
+Last cylinder number:       1800
+Blocks per track:           65
+Offset of first block:      28
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   11
+Number of spares:           6
+Number of slips:            1
+Slip: 74599
+Number of defects:          0
+Band #12
+First cylinder number:      1801
+Last cylinder number:       1900
+Blocks per track:           63
+Offset of first block:      49
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   11
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+Band #13
+First cylinder number:      1901
+Last cylinder number:       2000
+Blocks per track:           62
+Offset of first block:      2
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   10
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+Band #14
+First cylinder number:      2001
+Last cylinder number:       2097
+Blocks per track:           61
+Offset of first block:      48
+Empty space at zone front:  0
+Skew for track switch:      2
+Skew for cylinder switch:   10
+Number of spares:           6
+Number of slips:            0
+Number of defects:          0
+
+Disk brand name: HP_C2490A_validate
+Access time (in msecs):    -2.0
+Seek time (in msecs):      -5.0
+Single cylinder seek time:  0.2
+Average seek time:          seekHPC2490
+Full strobe seek time:      2.30
+Add. write settling delay:  -0.642
+HPL seek equation values:   300 3.7500 0.3300 7.6900 0.0059 -1
+First 10 seek times:        2.63 3.42 3.55 3.72 4.01 4.39 4.26 4.39 4.56 4.73
+Head switch time:           0.992
+Rotation speed (in rpms):   6398
+Percent error in rpms:      0.0
+Number of data surfaces:    18
+Number of cylinders:        2629
+Blocks per disk:            4165272
+Sparing scheme used:        1
+Per-request overhead time:  0.0
+Time scale for overheads:   1.0
+Bulk sector transfer time:  0.0
+Hold bus entire read xfer:  1
+Hold bus entire write xfer: 0
+Allow almost read hits:     0
+Allow sneaky full read hits: 0
+Allow sneaky partial read hits: 0
+Allow sneaky intermediate read hits: 0
+Allow read hits on write data: 1
+Allow write prebuffering:   0
+Preseeking level:           0
+Never disconnect:           0
+Print stats for disk:       1
+Avg sectors per cylinder:   1024
+Max queue length at disk:   1
+Scheduling policy:          1
+Cylinder mapping strategy:  0
+Write initiation delay:     0.0
+Read initiation delay:      0.0
+Sequential stream scheme:   0
+Maximum concat size:        0
+Overlapping request scheme: 0
+Sequential stream diff maximum: 0
+Scheduling timeout scheme:  0
+Timeout time/weight:        0
+Timeout scheduling:         0
+Scheduling priority scheme: 0
+Priority scheduling:        0
+Number of buffer segments:  1
+Maximum number of write segments:  1
+Segment size (in blks):     256
+Use separate write segment: 0
+Low (write) water mark:     0.0
+High (read) water mark:     0.0
+Set watermark by reqsize:   1
+Calc sector by sector:      1
+Enable caching in buffer:   2
+Buffer continuous read:     3
+Minimum read-ahead (blks):  0
+Maximum read-ahead (blks):  128
+Read-ahead over requested:  1
+Read-ahead on idle hit:     1
+Read any free blocks:       0
+Fast write level:           0
+Immediate buffer read:      0
+Immediate buffer write:     0
+Combine seq writes:         1
+Stop prefetch in sector:    1
+Disconnect write if seek:   0
+Write hit stop prefetch:    1
+Read directly to buffer:    1
+Immed transfer partial hit: 1
+Read hit over. after read:  1.41900
+Read hit over. after write: 0.0
+Read miss over. after read: 3.61600
+Read miss over. after write: 2.27500
+Write over. after read:     3.28300
+Write over. after write:    0.82391
+Read completion overhead:   0.08100
+Write completion overhead:  0.0
+Data preparation overhead:  0.0
+First reselect overhead:    0.0
+Other reselect overhead:    0.0
+Read disconnect afterread:  0.0
+Read disconnect afterwrite: 0.0
+Write disconnect overhead:  0.0
+Extra write disconnect:     0
+Extradisc command overhead: 0.00000
+Extradisc disconnect overhead: 0.00000
+Extradisc inter-disconnect delay: 0.00000
+Extradisc 2nd disconnect overhead: 0.00000
+Extradisc seek delta:       0.00000
+Minimum seek delay:         0.0
+Number of bands:            11
+Band #1
+First cylinder number:      0
+Last cylinder number:       186
+Blocks per track:           108
+Offset of first block:      0
+Empty space at zone front:  2376
+Skew for track switch:      18
+Skew for cylinder switch:   36
+Number of spares:           198
+Number of slips:            2
+Slip: 1626
+Slip: 1850
+Number of defects:          0
+Band #2
+First cylinder number:      187
+Last cylinder number:       501
+Blocks per track:           104
+Offset of first block:      60
+Empty space at zone front:  0
+Skew for track switch:      17
+Skew for cylinder switch:   35
+Number of spares:           90
+Number of slips:            2
+Slip: 1644
+Slip: 3579
+Number of defects:          0
+Band #3
+First cylinder number:      502
+Last cylinder number:       785
+Blocks per track:           100
+Offset of first block:      10
+Empty space at zone front:  0
+Skew for track switch:      16
+Skew for cylinder switch:   33
+Number of spares:           72
+Number of slips:            1
+Slip: 3541
+Number of defects:          0
+Band #4
+First cylinder number:      786
+Last cylinder number:       1097
+Blocks per track:           96
+Offset of first block:      0
+Empty space at zone front:  0
+Skew for track switch:      16
+Skew for cylinder switch:   32
+Number of spares:           72
+Number of slips:            4
+Slip: 1580
+Slip: 3447
+Slip: 4756
+Slip: 5614
+Number of defects:          0
+Band #5
+First cylinder number:      1098
+Last cylinder number:       1356
+Blocks per track:           92
+Offset of first block:      32
+Empty space at zone front:  0
+Skew for track switch:      15
+Skew for cylinder switch:   31
+Number of spares:           54
+Number of slips:            1
+Slip: 3361
+Number of defects:          0
+Band #6
+First cylinder number:      1357
+Last cylinder number:       1609
+Blocks per track:           88
+Offset of first block:      73
+Empty space at zone front:  0
+Skew for track switch:      15
+Skew for cylinder switch:   30
+Number of spares:           54
+Number of slips:            1
+Slip: 3193
+Number of defects:          0
+Band #7
+First cylinder number:      1610
+Last cylinder number:       1850
+Blocks per track:           84
+Offset of first block:      28
+Empty space at zone front:  0
+Skew for track switch:      14
+Skew for cylinder switch:   28
+Number of spares:           90
+Number of slips:            4
+Slip: 1354
+Slip: 1462
+Slip: 1686
+Slip: 4147
+Number of defects:          0
+Band #8
+First cylinder number:      1851
+Last cylinder number:       2070
+Blocks per track:           80
+Offset of first block:      8
+Empty space at zone front:  0
+Skew for track switch:      13
+Skew for cylinder switch:   27
+Number of spares:           36
+Number of slips:            2
+Slip: 1684
+Slip: 1862
+Number of defects:          0
+Band #9
+First cylinder number:      2071
+Last cylinder number:       2277
+Blocks per track:           76
+Offset of first block:      57
+Empty space at zone front:  0
+Skew for track switch:      13
+Skew for cylinder switch:   26
+Number of spares:           54
+Number of slips:            0
+Number of defects:          0
+Band #10
+First cylinder number:      2278
+Last cylinder number:       2497
+Blocks per track:           72
+Offset of first block:      22
+Empty space at zone front:  0
+Skew for track switch:      12
+Skew for cylinder switch:   25
+Number of spares:           36
+Number of slips:            3
+Slip: 1547
+Slip: 2329
+Slip: 2783
+Number of defects:          0
+Band #11
+First cylinder number:      2498
+Last cylinder number:       2629
+Blocks per track:           68
+Offset of first block:      62
+Empty space at zone front:  0
+Skew for track switch:      12
+Skew for cylinder switch:   23
+Number of spares:           72
+Number of slips:            3
+Slip: 1071
+Slip: 1380
+Slip: 2187
+Number of defects:          0
+
+Disk brand name: HP_C2247A_validate
+Access time (in msecs):    -2.0
+Seek time (in msecs):      -4.0
+Single cylinder seek time:  0.2
+Average seek time:          1.10
+Full strobe seek time:      2.30
+Add. write settling delay:  0.65
+HPL seek equation values:   300 3.8100 0.3300 7.7500 0.0059 -1
+First 10 seek times:        2.89 3.68 3.81 3.98 4.27 4.65 4.52 4.65 4.82 4.99
+Head switch time:           0.890
+Rotation speed (in rpms):   5400
+Percent error in rpms:      0.0
+Number of data surfaces:    13
+Number of cylinders:        2051
+Blocks per disk:            2054864
+Sparing scheme used:        1
+Per-request overhead time:  0.00
+Time scale for overheads:   1.0
+Bulk sector transfer time:  0.0
+Hold bus entire read xfer:  1
+Hold bus entire write xfer: 0
+Allow almost read hits:     0
+Allow sneaky full read hits: 0
+Allow sneaky partial read hits: 0
+Allow sneaky intermediate read hits: 0
+Allow read hits on write data: 1
+Allow write prebuffering:   0
+Preseeking level:           0
+Never disconnect:           0
+Print stats for disk:       1
+Avg sectors per cylinder:   1024
+Max queue length at disk:   1
+Scheduling policy:          1
+Cylinder mapping strategy:  0
+Write initiation delay:     0.0
+Read initiation delay:      0.0
+Sequential stream scheme:   0
+Maximum concat size:        0
+Overlapping request scheme: 0
+Sequential stream diff maximum: 0
+Scheduling timeout scheme:  0
+Timeout time/weight:        0
+Timeout scheduling:         0
+Scheduling priority scheme: 0
+Priority scheduling:        0
+Number of buffer segments:  2
+Maximum number of write segments:  1
+Segment size (in blks):     256
+Use separate write segment: 1
+Low (write) water mark:     0.75
+High (read) water mark:     0.75
+Set watermark by reqsize:   1
+Calc sector by sector:      1
+Enable caching in buffer:   1
+Buffer continuous read:     3
+Minimum read-ahead (blks):  0
+Maximum read-ahead (blks):  128
+Read-ahead over requested:  1
+Read-ahead on idle hit:     1
+Read any free blocks:       0
+Fast write level:           0
+Immediate buffer read:      0
+Immediate buffer write:     0
+Combine seq writes:         1
+Stop prefetch in sector:    1
+Disconnect write if seek:   0
+Write hit stop prefetch:    1
+Read directly to buffer:    1
+Immed transfer partial hit: 1
+Read hit over. after read:  0.95343
+Read hit over. after write: 0.95343
+Read miss over. after read: 0.55821
+Read miss over. after write: 0.55821
+Write over. after read:     0.82391
+Write over. after write:    0.82391
+Read completion overhead:   0.05665
+Write completion overhead:  0.05045
+Data preparation overhead:  0.02519
+First reselect overhead:    0.16249
+Other reselect overhead:    0.12883
+Read disconnect afterread:  0.02266
+Read disconnect afterwrite: 0.04551
+Write disconnect overhead:  0.16565
+Extra write disconnect:     1
+Extradisc command overhead: 0.64244
+Extradisc disconnect overhead: 0.04551
+Extradisc inter-disconnect delay: 0.42885
+Extradisc 2nd disconnect overhead: 0.13437
+Extradisc seek delta:       0.25000
+Minimum seek delay:         0.6
+Number of bands:            8
+Band #1
+First cylinder number:      0
+Last cylinder number:       558
+Blocks per track:           96
+Offset of first block:      0
+Empty space at zone front:  1632
+Skew for track switch:      14
+Skew for cylinder switch:   32
+Number of spares:           325
+Number of slips:            12
+Slip: 468
+Slip: 526
+Slip: 1204
+Slip: 1861
+Slip: 2447
+Slip: 2680
+Slip: 3098
+Slip: 3683
+Slip: 4880
+Slip: 4919
+Slip: 6952
+Slip: 7095
+Number of defects:          0
+Band #2
+First cylinder number:      559
+Last cylinder number:       760
+Blocks per track:           92
+Offset of first block:      14
+Empty space at zone front:  0
+Skew for track switch:      13
+Skew for cylinder switch:   30
+Number of spares:           130
+Number of slips:            6
+Slip: 231
+Slip: 868
+Slip: 1125
+Slip: 1458
+Slip: 1479
+Slip: 1492
+Number of defects:          0
+Band #3
+First cylinder number:      761
+Last cylinder number:       901
+Blocks per track:           88
+Offset of first block:      73
+Empty space at zone front:  0
+Skew for track switch:      13
+Skew for cylinder switch:   29
+Number of spares:           65
+Number of slips:            4
+Slip: 585
+Slip: 996
+Slip: 1401
+Slip: 1810
+Number of defects:          0
+Band #4
+First cylinder number:      902
+Last cylinder number:       1051
+Blocks per track:           84
+Offset of first block:      80
+Empty space at zone front:  0
+Skew for track switch:      12
+Skew for cylinder switch:   28
+Number of spares:           78
+Number of slips:            3
+Slip: 582
+Slip: 595
+Slip: 699
+Number of defects:          0
+Band #5
+First cylinder number:      1052
+Last cylinder number:       1193
+Blocks per track:           80
+Offset of first block:      52
+Empty space at zone front:  0
+Skew for track switch:      12
+Skew for cylinder switch:   27
+Number of spares:           52
+Number of slips:            3
+Slip: 569
+Slip: 1098
+Slip: 1518
+Number of defects:          0
+Band #6
+First cylinder number:      1194
+Last cylinder number:       1519
+Blocks per track:           72
+Offset of first block:      0
+Empty space at zone front:  0
+Skew for track switch:      11
+Skew for cylinder switch:   24
+Number of spares:           104
+Number of slips:            4
+Slip: 693
+Slip: 1489
+Slip: 3102
+Slip: 3115
+Number of defects:          0
+Band #7
+First cylinder number:      1520
+Last cylinder number:       1793
+Blocks per track:           64
+Offset of first block:      32
+Empty space at zone front:  0
+Skew for track switch:      10
+Skew for cylinder switch:   22
+Number of spares:           78
+Number of slips:            3
+Slip: 1980
+Slip: 1993
+Slip: 3505
+Number of defects:          0
+Band #8
+First cylinder number:      1794
+Last cylinder number:       2050
+Blocks per track:           56
+Offset of first block:      30
+Empty space at zone front:  0
+Skew for track switch:      9
+Skew for cylinder switch:   19
+Number of spares:           65
+Number of slips:            3
+Slip: 1512
+Slip: 2506
+Slip: 3320
+Number of defects:          0
+
