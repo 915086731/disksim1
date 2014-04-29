@@ -50,6 +50,7 @@
 
 extern int disk_printhack;
 extern double disk_printhacktime;
+extern FILE* debug_file;
 
 int LRU_at_seg_list_head = 0;
 
@@ -439,20 +440,26 @@ int hittype;
       case BUFFER_NOMATCH:
          if (curr->flags & READ) {
             currdisk->stat.readmisses++;
+         printf( "readmiss %d   %d\n", currdisk->stat.readmisses, curr->blkno );
          } else {
             currdisk->stat.writemisses++;
+         printf( "writemiss %d   %d\n", currdisk->stat.writemisses, curr->blkno );
          }
          break;
 
       case BUFFER_WHOLE:
          currdisk->stat.fullreadhits++;
+         printf( "fullreadhits %d   %d\n", currdisk->stat.fullreadhits, curr->blkno );
+         fprintf( debug_file, "fullreadhits %d   %d\n", currdisk->stat.fullreadhits, curr->blkno );
 	 break;
 
       case BUFFER_APPEND:
          currdisk->stat.appendhits++;
+         printf( "appendhits %d   %d\n", currdisk->stat.appendhits, curr->blkno );
 	 break;
 
       case BUFFER_PREPEND:
+         printf( "prependhits %d   %d\n", currdisk->stat.prependhits, curr->blkno );
          currdisk->stat.prependhits++;
 	 break;
 
@@ -471,6 +478,7 @@ int hittype;
       fprintf (outputfile, "Ongoing hit: blkno %d  bcount %d  segstart %d  segstop %d  read %d\n", curr->blkno, curr->bcount, seg->startblkno, seg->endblkno, seg->access->type);
 */
             currdisk->stat.readinghits++;
+         printf( "readinghits %d   %d\n", currdisk->stat.readinghits, curr->blkno );
             currdisk->stat.runreadingsize += size;
             currdisk->stat.remreadingsize += curr->bcount - size;
          } else {
@@ -478,8 +486,10 @@ int hittype;
       fprintf (outputfile, "Partial hit: blkno %d  bcount %d  segstart %d  segstop %d  read %d\n", curr->blkno, curr->bcount, seg->startblkno, seg->endblkno, ((curr->flags & READ) && (seg->state == BUFFER_CLEAN)));
 */
             currdisk->stat.parthits++;
+         printf( "parthits %d   %d\n", currdisk->stat.parthits, curr->blkno );
             currdisk->stat.runpartsize += size;
             currdisk->stat.rempartsize += curr->bcount - size;
+         fprintf( debug_file, "parthits  %d   %d\n", currdisk->stat.parthits, curr->blkno );
          }
          break;
 

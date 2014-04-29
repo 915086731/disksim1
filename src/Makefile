@@ -1,7 +1,8 @@
 LDFLAGS = -lm
 HP_FAST_OFLAGS = +O4
 NCR_FAST_OFLAGS = -O4 -Hoff=BEHAVED
-DEBUG_OFLAGS = -g -DASSERTS
+DEBUG_OFLAGS = -g -DASSERTS  -finstrument-functions
+# DEBUG_OFLAGS = -g -DASSERTS  
 PROF_OFLAGS = -g -DASSERTS -p
 GPROF_OFLAGS = -g -DASSERTS -G
 CFLAGS = ${DEBUG_OFLAGS}
@@ -12,7 +13,7 @@ DISKSIM_OBJ = disksim_intr.o disksim_cache.o disksim_pfsim.o disksim_pfdisp.o\
 	disksim_redun.o disksim_ioqueue.o disksim_iodriver.o disksim_bus.o\
 	disksim_controller.o disksim_ctlrdumb.o disksim_ctlrsmart.o\
 	disksim_disk.o disksim_diskctlr.o disksim_diskcache.o disksim_diskmap.o\
-	disksim_diskmech.o disksim_stat.o
+	disksim_diskmech.o disksim_stat.o gcc.o
 
 all : disksim syssim rms hplcomb
 

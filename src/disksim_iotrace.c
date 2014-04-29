@@ -194,6 +194,15 @@ ioreq_event *new;
       return(NULL);
    }
    new->time = simtime + (validate_nextinter / (double) 1000);
+   /* 
+    * Read/Write Flag
+    * Buffer Action (Hit/Miss)
+    * Request Address (blkno)
+    * Request Size (bcount)
+    * Service time (Real)
+    * Next Interarrival time (Real)
+    By Evan Jiang, from users mail-list
+    * */
    if (sscanf(line, "%c %s %d %d %lf %lf\n", &rw, validate_buffaction, &new->blkno, &new->bcount, &servtime, &validate_nextinter) != 6) {
       fprintf(stderr, "Wrong number of arguments for I/O trace event type\n");
       exit(0);
@@ -492,6 +501,7 @@ ioreq_event *new;
    new->opid = 0;
    new->busno = 0;
    new->cause = 0;
+   printf("%s : %lf %d %d %d %x\n", __FUNCTION__, new->time, new->devno, new->blkno, new->bcount, new->flags);
    return((event *) new);
 }
 

@@ -47,6 +47,8 @@
 #include "disksim_ioface.h"
 #include "disksim_pfface.h"
 
+FILE* debug_file = NULL;
+
 int external_control = 0;
 void (*external_io_done_notify)(ioreq_event *curr) = NULL;
 
@@ -691,6 +693,7 @@ void main(argc, argv)
 int argc;
 char **argv;
 {
+    if( (debug_file = fopen( "debug.txt", "w+" )) == NULL ) exit(2);
    StaticAssert (sizeof(intchar) == 4);
    if (argc < 6) {
       fprintf(stderr,"Usage: %s paramfile outfile format iotrace synthgen?\n", argv[0]);
@@ -780,5 +783,6 @@ fflush(outputfile);
    if (iotracefile) {
       fclose(iotracefile);
    }
+   fclose( debug_file );
 }
 
