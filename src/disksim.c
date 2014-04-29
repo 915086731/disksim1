@@ -693,6 +693,7 @@ void main(argc, argv)
 int argc;
 char **argv;
 {
+    int simulate_count = 0;
     if( (debug_file = fopen( "debug.txt", "w+" )) == NULL ) exit(2);
    StaticAssert (sizeof(intchar) == 4);
    if (argc < 6) {
@@ -768,6 +769,8 @@ fflush(outputfile);
 
    while (stop_sim == FALSE) {
       disksim_simulate_event();
+      printf("simulate count %d\n", simulate_count);
+      simulate_count++;
    }
 fprintf(outputfile, "Simulation complete\n");
 fflush(outputfile);
